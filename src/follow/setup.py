@@ -24,7 +24,8 @@ setup(
             "rotate_human_node = follow.rotate_human_server: main",
             "robot_head_controller = follow.head_server:main",
             "camerainfo = follow.camerainfo_tag:main",
-            "head_client = follow.head_client:main"
+            "head_client = follow.head_client:main",
+            'follow_human_node = follow.follower:main'
         ],
     },
 )
