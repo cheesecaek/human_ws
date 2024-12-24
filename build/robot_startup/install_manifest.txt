@@ -1,0 +1,16 @@
+/home/robot/human_ws/install/robot_startup/share/robot_startup/launch/start.launch.py
+/home/robot/human_ws/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+/home/robot/human_ws/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+/home/robot/human_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+/home/robot/human_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+/home/robot/human_ws/install/robot_startup/share/robot_startup/environment/path.sh
+/home/robot/human_ws/install/robot_startup/share/robot_startup/environment/path.dsv
+/home/robot/human_ws/install/robot_startup/share/robot_startup/local_setup.bash
+/home/robot/human_ws/install/robot_startup/share/robot_startup/local_setup.sh
+/home/robot/human_ws/install/robot_startup/share/robot_startup/local_setup.zsh
+/home/robot/human_ws/install/robot_startup/share/robot_startup/local_setup.dsv
+/home/robot/human_ws/install/robot_startup/share/robot_startup/package.dsv
+/home/robot/human_ws/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+/home/robot/human_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+/home/robot/human_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+/home/robot/human_ws/install/robot_startup/share/robot_startup/package.xml

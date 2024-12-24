@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from myinterfaces/srv/Action.srv
+// generated code does not contain a copyright notice
+
+
+module myinterfaces {
+  module srv {
+    struct Action_Request {
+      double linear_x;
+
+      double linear_y;
+
+      double linear_z;
+
+      double angular_x;
+
+      double angular_y;
+
+      double angular_z;
+
+      double duration;
+    };
+    struct Action_Response {
+      boolean success;
+    };
+  };
+};

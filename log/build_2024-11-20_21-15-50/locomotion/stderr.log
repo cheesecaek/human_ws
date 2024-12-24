@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/locomotion/lib/python3.10/site-packages/locomotion/locomotion.py", line 67
+    if mean < 0.8
+                 ^
+SyntaxError: expected ':'
+

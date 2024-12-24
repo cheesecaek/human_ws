@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/follow/follow.egg-info
+writing ../../build/follow/follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow/follow.egg-info/dependency_links.txt
+writing entry points to ../../build/follow/follow.egg-info/entry_points.txt
+writing requirements to ../../build/follow/follow.egg-info/requires.txt
+writing top-level names to ../../build/follow/follow.egg-info/top_level.txt
+writing manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+reading manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/human_ws/build/follow/build
+creating /home/robot/human_ws/build/follow/build/lib
+creating /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/test_joy.py -> /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/__init__.py -> /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/follow_tag.py -> /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/follower.py -> /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/test_publisher.py -> /home/robot/human_ws/build/follow/build/lib/follow
+running install
+running install_lib
+copying /home/robot/human_ws/build/follow/build/lib/follow/follow_tag.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow_tag.py to follow_tag.cpython-310.pyc
+  File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow_tag.py", line 13
+    s       elf.tag_coordinates_sub = Subscriber(self,
+            ^^^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/follow/follow.egg-info to /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follower script to /home/robot/human_ws/install/follow/lib/follow
+Installing joy_publisher script to /home/robot/human_ws/install/follow/lib/follow
+Installing tag_follower script to /home/robot/human_ws/install/follow/lib/follow
+Installing test_publisher script to /home/robot/human_ws/install/follow/lib/follow
+writing list of installed files to '/home/robot/human_ws/build/follow/install.log'

@@ -1,0 +1,24 @@
+[0.633s] Invoking command in '/home/robot/human_ws/src/action_server': PYTHONPATH=/home/robot/human_ws/build/action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_server build --build-base /home/robot/human_ws/build/action_server/build install --record /home/robot/human_ws/build/action_server/install.log --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.855s] writing ../../build/action_server/action_server.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/action_server/action_server.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/action_server/action_server.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../build/action_server/action_server.egg-info/requires.txt
+[0.855s] writing top-level names to ../../build/action_server/action_server.egg-info/top_level.txt
+[0.858s] reading manifest file '../../build/action_server/action_server.egg-info/SOURCES.txt'
+[0.858s] writing manifest file '../../build/action_server/action_server.egg-info/SOURCES.txt'
+[0.858s] running build
+[0.858s] running build_py
+[0.858s] copying action_server/action_service.py -> /home/robot/human_ws/build/action_server/build/lib/action_server
+[0.859s] running install
+[0.859s] running install_lib
+[0.859s] copying /home/robot/human_ws/build/action_server/build/lib/action_server/action_service.py -> /home/robot/human_ws/install/action_server/lib/python3.10/site-packages/action_server
+[0.860s] byte-compiling /home/robot/human_ws/install/action_server/lib/python3.10/site-packages/action_server/action_service.py to action_service.cpython-310.pyc
+[0.860s] running install_data
+[0.860s] running install_egg_info
+[0.862s] removing '/home/robot/human_ws/install/action_server/lib/python3.10/site-packages/action_server-0.0.0-py3.10.egg-info' (and everything under it)
+[0.862s] Copying ../../build/action_server/action_server.egg-info to /home/robot/human_ws/install/action_server/lib/python3.10/site-packages/action_server-0.0.0-py3.10.egg-info
+[0.862s] running install_scripts
+[0.876s] Installing action_node script to /home/robot/human_ws/install/action_server/lib/action_server
+[0.876s] writing list of installed files to '/home/robot/human_ws/build/action_server/install.log'
+[0.892s] Invoked command in '/home/robot/human_ws/src/action_server' returned '0': PYTHONPATH=/home/robot/human_ws/build/action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_server build --build-base /home/robot/human_ws/build/action_server/build install --record /home/robot/human_ws/build/action_server/install.log --single-version-externally-managed install_data

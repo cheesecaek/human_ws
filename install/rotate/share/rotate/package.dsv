@@ -1,0 +1,6 @@
+source;share/rotate/hook/pythonpath.ps1
+source;share/rotate/hook/pythonpath.dsv
+source;share/rotate/hook/pythonpath.sh
+source;share/rotate/hook/ament_prefix_path.ps1
+source;share/rotate/hook/ament_prefix_path.dsv
+source;share/rotate/hook/ament_prefix_path.sh

@@ -1,0 +1,25 @@
+[0.745s] Invoking command in '/home/robot/human_ws/src/human': PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data
+[0.961s] running egg_info
+[0.962s] writing ../../build/human/human.egg-info/PKG-INFO
+[0.962s] writing dependency_links to ../../build/human/human.egg-info/dependency_links.txt
+[0.962s] writing entry points to ../../build/human/human.egg-info/entry_points.txt
+[0.962s] writing requirements to ../../build/human/human.egg-info/requires.txt
+[0.962s] writing top-level names to ../../build/human/human.egg-info/top_level.txt
+[0.964s] reading manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[0.964s] writing manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.965s] running install
+[0.966s] running install_lib
+[0.967s] running install_data
+[0.967s] running install_egg_info
+[0.968s] removing '/home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info' (and everything under it)
+[0.968s] Copying ../../build/human/human.egg-info to /home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info
+[0.969s] running install_scripts
+[0.983s] Installing human_coordinate_client script to /home/robot/human_ws/install/human/lib/human
+[0.983s] Installing human_coordinate_client_pcd script to /home/robot/human_ws/install/human/lib/human
+[0.983s] Installing human_coordinate_server script to /home/robot/human_ws/install/human/lib/human
+[0.984s] Installing human_coordinate_server_pcd script to /home/robot/human_ws/install/human/lib/human
+[0.984s] Installing start_nodes script to /home/robot/human_ws/install/human/lib/human
+[0.984s] writing list of installed files to '/home/robot/human_ws/build/human/install.log'
+[1.002s] Invoked command in '/home/robot/human_ws/src/human' returned '0': PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data

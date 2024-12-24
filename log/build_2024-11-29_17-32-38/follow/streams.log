@@ -1,0 +1,27 @@
+[0.718s] Invoking command in '/home/robot/human_ws/src/follow': PYTHONPATH=/home/robot/human_ws/build/follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow build --build-base /home/robot/human_ws/build/follow/build install --record /home/robot/human_ws/build/follow/install.log --single-version-externally-managed install_data
+[0.948s] running egg_info
+[0.948s] writing ../../build/follow/follow.egg-info/PKG-INFO
+[0.948s] writing dependency_links to ../../build/follow/follow.egg-info/dependency_links.txt
+[0.948s] writing entry points to ../../build/follow/follow.egg-info/entry_points.txt
+[0.948s] writing requirements to ../../build/follow/follow.egg-info/requires.txt
+[0.948s] writing top-level names to ../../build/follow/follow.egg-info/top_level.txt
+[0.950s] reading manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+[0.950s] writing manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+[0.951s] running build
+[0.951s] running build_py
+[0.951s] copying follow/follow_tag.py -> /home/robot/human_ws/build/follow/build/lib/follow
+[0.951s] running install
+[0.951s] running install_lib
+[0.952s] copying /home/robot/human_ws/build/follow/build/lib/follow/follow_tag.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+[0.952s] byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow_tag.py to follow_tag.cpython-310.pyc
+[0.953s] running install_data
+[0.953s] running install_egg_info
+[0.954s] removing '/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info' (and everything under it)
+[0.954s] Copying ../../build/follow/follow.egg-info to /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info
+[0.955s] running install_scripts
+[0.969s] Installing follower script to /home/robot/human_ws/install/follow/lib/follow
+[0.969s] Installing joy_publisher script to /home/robot/human_ws/install/follow/lib/follow
+[0.970s] Installing tag_follower script to /home/robot/human_ws/install/follow/lib/follow
+[0.970s] Installing test_publisher script to /home/robot/human_ws/install/follow/lib/follow
+[0.970s] writing list of installed files to '/home/robot/human_ws/build/follow/install.log'
+[0.988s] Invoked command in '/home/robot/human_ws/src/follow' returned '0': PYTHONPATH=/home/robot/human_ws/build/follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow build --build-base /home/robot/human_ws/build/follow/build install --record /home/robot/human_ws/build/follow/install.log --single-version-externally-managed install_data

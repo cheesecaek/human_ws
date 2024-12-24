@@ -1,0 +1,21 @@
+[2.013s] Invoking command in '/home/robot/human_ws/src/image': PYTHONPATH=/home/robot/human_ws/build/image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image build --build-base /home/robot/human_ws/build/image/build install --record /home/robot/human_ws/build/image/install.log --single-version-externally-managed install_data
+[2.358s] running egg_info
+[2.359s] writing ../../build/image/image.egg-info/PKG-INFO
+[2.361s] writing dependency_links to ../../build/image/image.egg-info/dependency_links.txt
+[2.361s] writing entry points to ../../build/image/image.egg-info/entry_points.txt
+[2.361s] writing requirements to ../../build/image/image.egg-info/requires.txt
+[2.361s] writing top-level names to ../../build/image/image.egg-info/top_level.txt
+[2.365s] reading manifest file '../../build/image/image.egg-info/SOURCES.txt'
+[2.366s] writing manifest file '../../build/image/image.egg-info/SOURCES.txt'
+[2.366s] running build
+[2.367s] running build_py
+[2.367s] running install
+[2.368s] running install_lib
+[2.372s] running install_data
+[2.372s] running install_egg_info
+[2.373s] removing '/home/robot/human_ws/install/image/lib/python3.10/site-packages/image-0.0.0-py3.10.egg-info' (and everything under it)
+[2.374s] Copying ../../build/image/image.egg-info to /home/robot/human_ws/install/image/lib/python3.10/site-packages/image-0.0.0-py3.10.egg-info
+[2.377s] running install_scripts
+[2.413s] Installing image_client script to /home/robot/human_ws/install/image/lib/image
+[2.414s] writing list of installed files to '/home/robot/human_ws/build/image/install.log'
+[2.467s] Invoked command in '/home/robot/human_ws/src/image' returned '0': PYTHONPATH=/home/robot/human_ws/build/image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image build --build-base /home/robot/human_ws/build/image/build install --record /home/robot/human_ws/build/image/install.log --single-version-externally-managed install_data

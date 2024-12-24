@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/rotate/rotate.egg-info/PKG-INFO
+writing dependency_links to ../../build/rotate/rotate.egg-info/dependency_links.txt
+writing entry points to ../../build/rotate/rotate.egg-info/entry_points.txt
+writing requirements to ../../build/rotate/rotate.egg-info/requires.txt
+writing top-level names to ../../build/rotate/rotate.egg-info/top_level.txt
+reading manifest file '../../build/rotate/rotate.egg-info/SOURCES.txt'
+writing manifest file '../../build/rotate/rotate.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robot/human_ws/install/rotate/lib/python3.10/site-packages/rotate-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rotate/rotate.egg-info to /home/robot/human_ws/install/rotate/lib/python3.10/site-packages/rotate-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rotate_server script to /home/robot/human_ws/install/rotate/lib/rotate
+writing list of installed files to '/home/robot/human_ws/build/rotate/install.log'

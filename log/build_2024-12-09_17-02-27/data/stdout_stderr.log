@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/data/data.egg-info
+writing ../../build/data/data.egg-info/PKG-INFO
+writing dependency_links to ../../build/data/data.egg-info/dependency_links.txt
+writing entry points to ../../build/data/data.egg-info/entry_points.txt
+writing requirements to ../../build/data/data.egg-info/requires.txt
+writing top-level names to ../../build/data/data.egg-info/top_level.txt
+writing manifest file '../../build/data/data.egg-info/SOURCES.txt'
+reading manifest file '../../build/data/data.egg-info/SOURCES.txt'
+writing manifest file '../../build/data/data.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/human_ws/build/data/build
+creating /home/robot/human_ws/build/data/build/lib
+creating /home/robot/human_ws/build/data/build/lib/data
+copying data/data.py -> /home/robot/human_ws/build/data/build/lib/data
+copying data/__init__.py -> /home/robot/human_ws/build/data/build/lib/data
+running install
+running install_lib
+creating /home/robot/human_ws/install/data/lib/python3.10/site-packages/data
+copying /home/robot/human_ws/build/data/build/lib/data/data.py -> /home/robot/human_ws/install/data/lib/python3.10/site-packages/data
+copying /home/robot/human_ws/build/data/build/lib/data/__init__.py -> /home/robot/human_ws/install/data/lib/python3.10/site-packages/data
+byte-compiling /home/robot/human_ws/install/data/lib/python3.10/site-packages/data/data.py to data.cpython-310.pyc
+byte-compiling /home/robot/human_ws/install/data/lib/python3.10/site-packages/data/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robot/human_ws/install/data/share/ament_index
+creating /home/robot/human_ws/install/data/share/ament_index/resource_index
+creating /home/robot/human_ws/install/data/share/ament_index/resource_index/packages
+copying resource/data -> /home/robot/human_ws/install/data/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/human_ws/install/data/share/data
+running install_egg_info
+Copying ../../build/data/data.egg-info to /home/robot/human_ws/install/data/lib/python3.10/site-packages/data-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_node script to /home/robot/human_ws/install/data/lib/data
+writing list of installed files to '/home/robot/human_ws/build/data/install.log'

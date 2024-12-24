@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/action_server/action_server.egg-info
+writing ../../build/action_server/action_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/action_server/action_server.egg-info/dependency_links.txt
+writing entry points to ../../build/action_server/action_server.egg-info/entry_points.txt
+writing requirements to ../../build/action_server/action_server.egg-info/requires.txt
+writing top-level names to ../../build/action_server/action_server.egg-info/top_level.txt
+writing manifest file '../../build/action_server/action_server.egg-info/SOURCES.txt'
+reading manifest file '../../build/action_server/action_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/action_server/action_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/human_ws/build/action_server/build
+creating /home/robot/human_ws/build/action_server/build/lib
+creating /home/robot/human_ws/build/action_server/build/lib/action_server
+copying action_server/action_service.py -> /home/robot/human_ws/build/action_server/build/lib/action_server
+copying action_server/__init__.py -> /home/robot/human_ws/build/action_server/build/lib/action_server
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robot/human_ws/install/action_server/lib/python3.10/site-packages/action_server-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/action_server/action_server.egg-info to /home/robot/human_ws/install/action_server/lib/python3.10/site-packages/action_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing action_node script to /home/robot/human_ws/install/action_server/lib/action_server
+writing list of installed files to '/home/robot/human_ws/build/action_server/install.log'

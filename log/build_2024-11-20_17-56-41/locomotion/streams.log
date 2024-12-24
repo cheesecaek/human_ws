@@ -1,0 +1,21 @@
+[0.980s] Invoking command in '/home/robot/human_ws/src/locomotion': PYTHONPATH=/home/robot/human_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/robot/human_ws/build/locomotion/build install --record /home/robot/human_ws/build/locomotion/install.log --single-version-externally-managed install_data
+[1.181s] running egg_info
+[1.181s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[1.182s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[1.182s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[1.182s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[1.182s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[1.183s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[1.184s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[1.184s] running build
+[1.184s] running build_py
+[1.184s] running install
+[1.184s] running install_lib
+[1.185s] running install_data
+[1.185s] running install_egg_info
+[1.186s] removing '/home/robot/human_ws/install/locomotion/lib/python3.10/site-packages/locomotion-0.0.0-py3.10.egg-info' (and everything under it)
+[1.186s] Copying ../../build/locomotion/locomotion.egg-info to /home/robot/human_ws/install/locomotion/lib/python3.10/site-packages/locomotion-0.0.0-py3.10.egg-info
+[1.186s] running install_scripts
+[1.200s] Installing locomotion script to /home/robot/human_ws/install/locomotion/lib/locomotion
+[1.200s] writing list of installed files to '/home/robot/human_ws/build/locomotion/install.log'
+[1.221s] Invoked command in '/home/robot/human_ws/src/locomotion' returned '0': PYTHONPATH=/home/robot/human_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/robot/human_ws/build/locomotion/build install --record /home/robot/human_ws/build/locomotion/install.log --single-version-externally-managed install_data

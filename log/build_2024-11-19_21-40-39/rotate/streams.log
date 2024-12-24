@@ -1,0 +1,21 @@
+[1.370s] Invoking command in '/home/robot/human_ws/src/rotate': PYTHONPATH=/home/robot/human_ws/build/rotate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/rotate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rotate build --build-base /home/robot/human_ws/build/rotate/build install --record /home/robot/human_ws/build/rotate/install.log --single-version-externally-managed install_data
+[1.588s] running egg_info
+[1.589s] writing ../../build/rotate/rotate.egg-info/PKG-INFO
+[1.590s] writing dependency_links to ../../build/rotate/rotate.egg-info/dependency_links.txt
+[1.590s] writing entry points to ../../build/rotate/rotate.egg-info/entry_points.txt
+[1.590s] writing requirements to ../../build/rotate/rotate.egg-info/requires.txt
+[1.590s] writing top-level names to ../../build/rotate/rotate.egg-info/top_level.txt
+[1.592s] reading manifest file '../../build/rotate/rotate.egg-info/SOURCES.txt'
+[1.593s] writing manifest file '../../build/rotate/rotate.egg-info/SOURCES.txt'
+[1.593s] running build
+[1.593s] running build_py
+[1.593s] running install
+[1.594s] running install_lib
+[1.595s] running install_data
+[1.595s] running install_egg_info
+[1.596s] removing '/home/robot/human_ws/install/rotate/lib/python3.10/site-packages/rotate-0.0.0-py3.10.egg-info' (and everything under it)
+[1.596s] Copying ../../build/rotate/rotate.egg-info to /home/robot/human_ws/install/rotate/lib/python3.10/site-packages/rotate-0.0.0-py3.10.egg-info
+[1.597s] running install_scripts
+[1.615s] Installing rotate_server script to /home/robot/human_ws/install/rotate/lib/rotate
+[1.616s] writing list of installed files to '/home/robot/human_ws/build/rotate/install.log'
+[1.674s] Invoked command in '/home/robot/human_ws/src/rotate' returned '0': PYTHONPATH=/home/robot/human_ws/build/rotate/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/rotate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rotate build --build-base /home/robot/human_ws/build/rotate/build install --record /home/robot/human_ws/build/rotate/install.log --single-version-externally-managed install_data

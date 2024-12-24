@@ -1,0 +1,24 @@
+[0.756s] Invoking command in '/home/robot/human_ws/src/manager': PYTHONPATH=/home/robot/human_ws/build/manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manager build --build-base /home/robot/human_ws/build/manager/build install --record /home/robot/human_ws/build/manager/install.log --single-version-externally-managed install_data
+[0.967s] running egg_info
+[0.967s] writing ../../build/manager/manager.egg-info/PKG-INFO
+[0.967s] writing dependency_links to ../../build/manager/manager.egg-info/dependency_links.txt
+[0.968s] writing entry points to ../../build/manager/manager.egg-info/entry_points.txt
+[0.968s] writing requirements to ../../build/manager/manager.egg-info/requires.txt
+[0.968s] writing top-level names to ../../build/manager/manager.egg-info/top_level.txt
+[0.969s] reading manifest file '../../build/manager/manager.egg-info/SOURCES.txt'
+[0.970s] writing manifest file '../../build/manager/manager.egg-info/SOURCES.txt'
+[0.970s] running build
+[0.970s] running build_py
+[0.970s] copying manager/manager.py -> /home/robot/human_ws/build/manager/build/lib/manager
+[0.971s] running install
+[0.971s] running install_lib
+[0.972s] copying /home/robot/human_ws/build/manager/build/lib/manager/manager.py -> /home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager
+[0.972s] byte-compiling /home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager/manager.py to manager.cpython-310.pyc
+[0.974s] running install_data
+[0.974s] running install_egg_info
+[0.975s] removing '/home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager-0.0.0-py3.10.egg-info' (and everything under it)
+[0.975s] Copying ../../build/manager/manager.egg-info to /home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager-0.0.0-py3.10.egg-info
+[0.976s] running install_scripts
+[0.990s] Installing manager_node script to /home/robot/human_ws/install/manager/lib/manager
+[0.990s] writing list of installed files to '/home/robot/human_ws/build/manager/install.log'
+[1.010s] Invoked command in '/home/robot/human_ws/src/manager' returned '0': PYTHONPATH=/home/robot/human_ws/build/manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manager build --build-base /home/robot/human_ws/build/manager/build install --record /home/robot/human_ws/build/manager/install.log --single-version-externally-managed install_data

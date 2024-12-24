@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/human/human.egg-info/PKG-INFO
+writing dependency_links to ../../build/human/human.egg-info/dependency_links.txt
+writing entry points to ../../build/human/human.egg-info/entry_points.txt
+writing requirements to ../../build/human/human.egg-info/requires.txt
+writing top-level names to ../../build/human/human.egg-info/top_level.txt
+reading manifest file '../../build/human/human.egg-info/SOURCES.txt'
+writing manifest file '../../build/human/human.egg-info/SOURCES.txt'
+running build
+running build_py
+copying human/human_client.py -> /home/robot/human_ws/build/human/build/lib/human
+running install
+running install_lib
+copying /home/robot/human_ws/build/human/build/lib/human/human_client.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human
+byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/human_client.py to human_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/human/human.egg-info to /home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info
+running install_scripts
+Installing human_coordinate_client script to /home/robot/human_ws/install/human/lib/human
+Installing human_coordinate_client_pcd script to /home/robot/human_ws/install/human/lib/human
+Installing human_coordinate_server script to /home/robot/human_ws/install/human/lib/human
+Installing human_coordinate_server_pcd script to /home/robot/human_ws/install/human/lib/human
+writing list of installed files to '/home/robot/human_ws/build/human/install.log'

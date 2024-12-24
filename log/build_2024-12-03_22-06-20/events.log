@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000572] (-) JobUnselected: {'identifier': 'human'}
+[0.000590] (-) JobUnselected: {'identifier': 'image'}
+[0.000603] (-) JobUnselected: {'identifier': 'manager'}
+[0.000615] (-) JobUnselected: {'identifier': 'myinterfaces'}
+[0.000627] (-) JobUnselected: {'identifier': 'robot_startup'}
+[0.000639] (-) JobUnselected: {'identifier': 'test_listen'}
+[0.000654] (follow) JobQueued: {'identifier': 'follow', 'dependencies': OrderedDict()}
+[0.000672] (follow) JobStarted: {'identifier': 'follow'}
+[0.100900] (-) TimerEvent: {}
+[0.201184] (-) TimerEvent: {}
+[0.301684] (-) TimerEvent: {}
+[0.402345] (-) TimerEvent: {}
+[0.503194] (-) TimerEvent: {}
+[0.603589] (-) TimerEvent: {}
+[0.609145] (follow) JobEnded: {'identifier': 'follow', 'rc': 0}
+[0.612847] (-) EventReactorShutdown: {}

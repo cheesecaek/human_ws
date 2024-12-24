@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from myinterfaces/srv/Tag.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Int8.idl"
+
+module myinterfaces {
+  module srv {
+    struct Tag_Request {
+      std_msgs::msg::Int8 id;
+
+      std_msgs::msg::Int8 action;
+    };
+    struct Tag_Response {
+      boolean state;
+    };
+  };
+};

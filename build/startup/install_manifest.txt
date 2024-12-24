@@ -1,0 +1,16 @@
+/home/robot/human_ws/install/startup/share/startup/launch/start.launch.py
+/home/robot/human_ws/install/startup/share/ament_index/resource_index/package_run_dependencies/startup
+/home/robot/human_ws/install/startup/share/ament_index/resource_index/parent_prefix_path/startup
+/home/robot/human_ws/install/startup/share/startup/environment/ament_prefix_path.sh
+/home/robot/human_ws/install/startup/share/startup/environment/ament_prefix_path.dsv
+/home/robot/human_ws/install/startup/share/startup/environment/path.sh
+/home/robot/human_ws/install/startup/share/startup/environment/path.dsv
+/home/robot/human_ws/install/startup/share/startup/local_setup.bash
+/home/robot/human_ws/install/startup/share/startup/local_setup.sh
+/home/robot/human_ws/install/startup/share/startup/local_setup.zsh
+/home/robot/human_ws/install/startup/share/startup/local_setup.dsv
+/home/robot/human_ws/install/startup/share/startup/package.dsv
+/home/robot/human_ws/install/startup/share/ament_index/resource_index/packages/startup
+/home/robot/human_ws/install/startup/share/startup/cmake/startupConfig.cmake
+/home/robot/human_ws/install/startup/share/startup/cmake/startupConfig-version.cmake
+/home/robot/human_ws/install/startup/share/startup/package.xml

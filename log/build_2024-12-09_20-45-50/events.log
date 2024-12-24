@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000597] (-) JobUnselected: {'identifier': 'data'}
+[0.000621] (-) JobUnselected: {'identifier': 'follow'}
+[0.000639] (-) JobUnselected: {'identifier': 'human'}
+[0.000655] (-) JobUnselected: {'identifier': 'image'}
+[0.000674] (-) JobUnselected: {'identifier': 'manager'}
+[0.000691] (-) JobUnselected: {'identifier': 'myinterfaces'}
+[0.000707] (-) JobUnselected: {'identifier': 'startup'}
+[0.000732] (test_listen) JobQueued: {'identifier': 'test_listen', 'dependencies': OrderedDict()}
+[0.001315] (test_listen) JobStarted: {'identifier': 'test_listen'}
+[0.101288] (-) TimerEvent: {}
+[0.201956] (-) TimerEvent: {}
+[0.303697] (-) TimerEvent: {}
+[0.408457] (-) TimerEvent: {}
+[0.510363] (-) TimerEvent: {}
+[0.613062] (-) TimerEvent: {}
+[0.714103] (-) TimerEvent: {}
+[0.817457] (-) TimerEvent: {}
+[0.917855] (-) TimerEvent: {}
+[1.018805] (-) TimerEvent: {}
+[1.120313] (-) TimerEvent: {}
+[1.221876] (-) TimerEvent: {}
+[1.323358] (-) TimerEvent: {}
+[1.423721] (-) TimerEvent: {}
+[1.524010] (-) TimerEvent: {}
+[1.624482] (-) TimerEvent: {}
+[1.725105] (-) TimerEvent: {}
+[1.765215] (test_listen) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_listen', 'build', '--build-base', '/home/robot/human_ws/build/test_listen/build', 'install', '--record', '/home/robot/human_ws/build/test_listen/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/human_ws/src/test_listen', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'robot', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/robot_controller_release/ros2_packages/livox_lidar_node/lib:/home/robot/robot_controller_release/ros2_packages/custom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robot', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.94.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1313', 'SYSTEMD_EXEC_PID': '1772', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3408', 'COLCON_PREFIX_PATH': '/home/robot/robot_controller_release/ros2_packages', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'robot', 'JOURNAL_STREAM': '8:19668', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/miniconda3/condabin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot-minipc:@/tmp/.ICE-unix/1747,unix/robot-minipc:/tmp/.ICE-unix/1747', 'INVOCATION_ID': '93d8350d24064937b0780adebfa579d2', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3826dcf55c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/robot/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robot/human_ws/build/test_listen', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/robot/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/human_ws/build/test_listen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1'}, 'shell': False}
+[1.830559] (-) TimerEvent: {}
+[1.931087] (-) TimerEvent: {}
+[2.031915] (-) TimerEvent: {}
+[2.134463] (-) TimerEvent: {}
+[2.234820] (-) TimerEvent: {}
+[2.314663] (test_listen) StdoutLine: {'line': b'running egg_info\n'}
+[2.317551] (test_listen) StdoutLine: {'line': b'writing ../../build/test_listen/test_listen.egg-info/PKG-INFO\n'}
+[2.320340] (test_listen) StdoutLine: {'line': b'writing dependency_links to ../../build/test_listen/test_listen.egg-info/dependency_links.txt\n'}
+[2.321878] (test_listen) StdoutLine: {'line': b'writing entry points to ../../build/test_listen/test_listen.egg-info/entry_points.txt\n'}
+[2.322127] (test_listen) StdoutLine: {'line': b'writing requirements to ../../build/test_listen/test_listen.egg-info/requires.txt\n'}
+[2.322316] (test_listen) StdoutLine: {'line': b'writing top-level names to ../../build/test_listen/test_listen.egg-info/top_level.txt\n'}
+[2.324991] (test_listen) StdoutLine: {'line': b"reading manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'\n"}
+[2.326416] (test_listen) StdoutLine: {'line': b"writing manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'\n"}
+[2.327448] (test_listen) StdoutLine: {'line': b'running build\n'}
+[2.327918] (test_listen) StdoutLine: {'line': b'running build_py\n'}
+[2.328695] (test_listen) StdoutLine: {'line': b'copying test_listen/state_manager.py -> /home/robot/human_ws/build/test_listen/build/lib/test_listen\n'}
+[2.330899] (test_listen) StdoutLine: {'line': b'copying test_listen/introduction.py -> /home/robot/human_ws/build/test_listen/build/lib/test_listen\n'}
+[2.333946] (test_listen) StdoutLine: {'line': b'running install\n'}
+[2.334545] (test_listen) StdoutLine: {'line': b'running install_lib\n'}
+[2.334922] (-) TimerEvent: {}
+[2.335859] (test_listen) StdoutLine: {'line': b'copying /home/robot/human_ws/build/test_listen/build/lib/test_listen/state_manager.py -> /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen\n'}
+[2.336346] (test_listen) StdoutLine: {'line': b'copying /home/robot/human_ws/build/test_listen/build/lib/test_listen/introduction.py -> /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen\n'}
+[2.336920] (test_listen) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/state_manager.py to state_manager.cpython-310.pyc\n'}
+[2.340419] (test_listen) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/introduction.py to introduction.cpython-310.pyc\n'}
+[2.344582] (test_listen) StdoutLine: {'line': b'running install_data\n'}
+[2.344773] (test_listen) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.344846] (test_listen) StdoutLine: {'line': b"removing '/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.344914] (test_listen) StdoutLine: {'line': b'Copying ../../build/test_listen/test_listen.egg-info to /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info\n'}
+[2.345924] (test_listen) StdoutLine: {'line': b'running install_scripts\n'}
+[2.388144] (test_listen) StdoutLine: {'line': b'Installing listen_new_node script to /home/robot/human_ws/install/test_listen/lib/test_listen\n'}
+[2.388434] (test_listen) StdoutLine: {'line': b'Installing listen_test_node script to /home/robot/human_ws/install/test_listen/lib/test_listen\n'}
+[2.388990] (test_listen) StdoutLine: {'line': b"writing list of installed files to '/home/robot/human_ws/build/test_listen/install.log'\n"}
+[2.437591] (-) TimerEvent: {}
+[2.461780] (test_listen) CommandEnded: {'returncode': 0}
+[2.491980] (test_listen) JobEnded: {'identifier': 'test_listen', 'rc': 0}
+[2.493608] (-) EventReactorShutdown: {}

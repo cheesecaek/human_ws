@@ -1,0 +1,6 @@
+/home/robot/human_ws/build/myinterfaces/rosidl_adapter/myinterfaces:msg/DetectCoordinates.idl
+/home/robot/human_ws/build/myinterfaces/rosidl_adapter/myinterfaces:msg/State.idl
+/home/robot/human_ws/build/myinterfaces/rosidl_adapter/myinterfaces:srv/Humancoordinates.idl
+/home/robot/human_ws/build/myinterfaces/rosidl_adapter/myinterfaces:srv/Tag.idl
+/home/robot/human_ws/build/myinterfaces/rosidl_adapter/myinterfaces:srv/Action.idl
+/home/robot/human_ws/build/myinterfaces/rosidl_adapter/myinterfaces:srv/Headcontrol.idl

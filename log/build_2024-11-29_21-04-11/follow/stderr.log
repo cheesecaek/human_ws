@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow_tag.py", line 97
+    transform_coordinate = 
+                           ^
+SyntaxError: invalid syntax
+

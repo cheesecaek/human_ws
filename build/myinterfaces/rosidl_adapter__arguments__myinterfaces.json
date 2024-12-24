@@ -1,0 +1,11 @@
+{
+  "package_name": "myinterfaces",
+  "non_idl_tuples": [
+    "/home/robot/human_ws/src/myinterfaces:msg/DetectCoordinates.msg",
+    "/home/robot/human_ws/src/myinterfaces:msg/State.msg",
+    "/home/robot/human_ws/src/myinterfaces:srv/Humancoordinates.srv",
+    "/home/robot/human_ws/src/myinterfaces:srv/Tag.srv",
+    "/home/robot/human_ws/src/myinterfaces:srv/Action.srv",
+    "/home/robot/human_ws/src/myinterfaces:srv/Headcontrol.srv"
+  ]
+}

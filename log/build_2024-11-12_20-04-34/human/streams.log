@@ -1,0 +1,27 @@
+[1.704s] Invoking command in '/home/robot/human_ws/src/human': AMENT_PREFIX_PATH=/home/robot/human_ws/install/myinterfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/human_ws/install/myinterfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/human_ws/install/myinterfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data
+[2.235s] running egg_info
+[2.235s] writing ../../build/human/human.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/human/human.egg-info/dependency_links.txt
+[2.236s] writing entry points to ../../build/human/human.egg-info/entry_points.txt
+[2.236s] writing requirements to ../../build/human/human.egg-info/requires.txt
+[2.236s] writing top-level names to ../../build/human/human.egg-info/top_level.txt
+[2.240s] reading manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[2.247s] writing manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[2.247s] running build
+[2.247s] running build_py
+[2.247s] copying human/human_detection.py -> /home/robot/human_ws/build/human/build/lib/human
+[2.253s] running install
+[2.253s] running install_lib
+[2.254s] copying /home/robot/human_ws/build/human/build/lib/human/human_detection.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human
+[2.261s] byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/human_detection.py to human_detection.cpython-310.pyc
+[2.264s] running install_data
+[2.264s] running install_egg_info
+[2.270s] removing '/home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info' (and everything under it)
+[2.270s] Copying ../../build/human/human.egg-info to /home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info
+[2.275s] running install_scripts
+[2.332s] Installing human_coordinate_client script to /home/robot/human_ws/install/human/lib/human
+[2.332s] Installing human_coordinate_client_pcd script to /home/robot/human_ws/install/human/lib/human
+[2.335s] Installing human_coordinate_server script to /home/robot/human_ws/install/human/lib/human
+[2.335s] Installing human_coordinate_server_pcd script to /home/robot/human_ws/install/human/lib/human
+[2.335s] writing list of installed files to '/home/robot/human_ws/build/human/install.log'
+[2.379s] Invoked command in '/home/robot/human_ws/src/human' returned '0': AMENT_PREFIX_PATH=/home/robot/human_ws/install/myinterfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/human_ws/install/myinterfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/human_ws/install/myinterfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager/manager.py", line 309
+    if self.is_head_action = True: break #等待头部动作完成
+       ^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+

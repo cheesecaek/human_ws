@@ -1,0 +1,7 @@
+[0.050s] Invoking command in '/home/robot/human_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/human_ws/build/apriltag_ros -- -j16 -l16
+[0.974s] [ 40%] Built target tags
+[0.974s] [ 40%] Built target conversion
+[0.974s] [ 60%] Built target apriltag_node
+[0.974s] [ 80%] Built target pose_estimation
+[0.974s] [100%] Built target AprilTagNode
+[1.216s] Invoked command in '/home/robot/human_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/human_ws/build/apriltag_ros -- -j16 -l16

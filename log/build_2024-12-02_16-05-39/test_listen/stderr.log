@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/listen_new.py", line 22
+    self.create_publisher(State, '/state', 10)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

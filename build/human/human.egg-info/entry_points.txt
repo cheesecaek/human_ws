@@ -1,0 +1,8 @@
+[console_scripts]
+coordinates_publisher = human.coordinates_publisher:main
+human_coordinate_client = human.human_client:main
+human_coordinate_client_pcd = human.human_client_pcd:main
+human_coordinate_server = human.human_detection:main
+human_coordinate_server_pcd = human.human_detection_pcd:main
+start_nodes = human.launch.start_nodes:generate_launch_description
+

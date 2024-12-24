@@ -1,0 +1,261 @@
+[0.038s] Invoking command in '/home/robot/human_ws/build/myinterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/human_ws/build/myinterfaces -- -j16 -l16
+[1.278s] [  1%] Built target myinterfaces__cpp
+[1.278s] [ 12%] Built target myinterfaces__rosidl_generator_c
+[1.279s] [ 12%] Built target ament_cmake_python_copy_myinterfaces
+[1.279s] [ 23%] Built target myinterfaces__rosidl_typesupport_introspection_cpp
+[1.279s] [ 52%] Built target myinterfaces__rosidl_typesupport_introspection_c
+[1.279s] [ 56%] Built target myinterfaces__rosidl_typesupport_fastrtps_cpp
+[1.279s] [ 57%] Built target myinterfaces__rosidl_typesupport_fastrtps_c
+[1.279s] [ 80%] Built target myinterfaces__rosidl_typesupport_cpp
+[1.279s] [ 80%] Built target myinterfaces__rosidl_typesupport_c
+[1.279s] [ 80%] Built target myinterfaces
+[1.279s] [ 81%] Built target myinterfaces__py
+[1.279s] [ 91%] Built target myinterfaces__rosidl_generator_py
+[1.280s] [ 94%] Built target myinterfaces__rosidl_typesupport_introspection_c__pyext
+[1.280s] [ 97%] Built target myinterfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.280s] [100%] Built target myinterfaces__rosidl_typesupport_c__pyext
+[1.280s] running egg_info
+[1.280s] writing myinterfaces.egg-info/PKG-INFO
+[1.280s] writing dependency_links to myinterfaces.egg-info/dependency_links.txt
+[1.280s] writing top-level names to myinterfaces.egg-info/top_level.txt
+[1.280s] reading manifest file 'myinterfaces.egg-info/SOURCES.txt'
+[1.280s] writing manifest file 'myinterfaces.egg-info/SOURCES.txt'
+[1.280s] [100%] Built target ament_cmake_python_build_myinterfaces_egg
+[1.559s] Invoked command in '/home/robot/human_ws/build/myinterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/human_ws/build/myinterfaces -- -j16 -l16
+[1.774s] Invoking command in '/home/robot/human_ws/build/myinterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/human_ws/build/myinterfaces
+[1.789s] -- Install configuration: ""
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/rosidl_interfaces/myinterfaces
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__type_support.h
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__type_support.h
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__functions.c
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__functions.c
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__struct.h
+[1.790s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__functions.h
+[1.791s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__functions.h
+[1.791s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__functions.c
+[1.791s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__functions.h
+[1.791s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__struct.h
+[1.791s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__type_support.h
+[1.792s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__type_support.h
+[1.792s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__struct.h
+[1.792s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__functions.h
+[1.792s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__struct.h
+[1.792s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__functions.c
+[1.792s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/tag.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/headcontrol.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/humancoordinates.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/action.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__struct.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__type_support.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__functions.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__functions.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__type_support.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__struct.h
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__functions.c
+[1.793s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__functions.c
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_generator_c__visibility_control.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/state.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detect_coordinates.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/library_path.sh
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/library_path.dsv
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_generator_c.so
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_fastrtps_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__rosidl_typesupport_fastrtps_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__rosidl_typesupport_fastrtps_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__rosidl_typesupport_fastrtps_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__rosidl_typesupport_fastrtps_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__rosidl_typesupport_introspection_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__rosidl_typesupport_introspection_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_introspection_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__type_support.c
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__type_support.c
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__rosidl_typesupport_introspection_c.h
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__type_support.c
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__type_support.c
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg
+[1.794s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__type_support.c
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__rosidl_typesupport_introspection_c.h
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__type_support.c
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__rosidl_typesupport_introspection_c.h
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_introspection_c.so
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_c.so
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/tag.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__builder.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__builder.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__builder.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__traits.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__struct.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__struct.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__traits.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__struct.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__struct.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__builder.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__traits.hpp
+[1.795s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__traits.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/headcontrol.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/action.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/humancoordinates.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__struct.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__traits.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__struct.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__traits.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__builder.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__builder.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detect_coordinates.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/state.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__rosidl_typesupport_fastrtps_cpp.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__rosidl_typesupport_fastrtps_cpp.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/dds_fastrtps
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/dds_fastrtps
+[1.796s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__type_support.cpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__type_support.cpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/headcontrol__rosidl_typesupport_introspection_cpp.hpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__rosidl_typesupport_introspection_cpp.hpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__type_support.cpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/tag__rosidl_typesupport_introspection_cpp.hpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_introspection_cpp.hpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/action__type_support.cpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__type_support.cpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/detail/detect_coordinates__type_support.cpp
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.797s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_cpp.so
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/pythonpath.sh
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/pythonpath.dsv
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info
+[1.798s] -- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.798s] -- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.798s] -- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.798s] -- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/__init__.py
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_c.c
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/libmyinterfaces__rosidl_generator_py.so
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_action_s.c
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_action.py
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/__init__.py
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_tag.py
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_humancoordinates.py
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_tag_s.c
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_headcontrol_s.c
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_humancoordinates_s.c
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_headcontrol.py
+[1.798s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg/_detect_coordinates.py
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg/__init__.py
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg/_state.py
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg/_state_s.c
+[1.799s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg/_detect_coordinates_s.c
+[1.853s] Listing '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces'...
+[1.853s] Listing '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/msg'...
+[1.853s] Listing '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv'...
+[1.863s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.863s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.863s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.864s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_generator_py.so
+[1.865s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/msg/DetectCoordinates.idl
+[1.865s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/msg/State.idl
+[1.865s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates.idl
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Tag.idl
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Action.idl
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Headcontrol.idl
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/msg/DetectCoordinates.msg
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/msg/State.msg
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates.srv
+[1.866s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates_Request.msg
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates_Response.msg
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Tag.srv
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Tag_Request.msg
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Tag_Response.msg
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Action.srv
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Action_Request.msg
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Action_Response.msg
+[1.867s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Headcontrol.srv
+[1.868s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Headcontrol_Request.msg
+[1.868s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Headcontrol_Response.msg
+[1.868s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/package_run_dependencies/myinterfaces
+[1.868s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/parent_prefix_path/myinterfaces
+[1.868s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/ament_prefix_path.sh
+[1.868s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/ament_prefix_path.dsv
+[1.869s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/path.sh
+[1.869s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/path.dsv
+[1.869s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.bash
+[1.869s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.sh
+[1.870s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.zsh
+[1.870s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.dsv
+[1.870s] -- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/package.dsv
+[1.870s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/packages/myinterfaces
+[1.870s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_cExport.cmake
+[1.870s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_cExport-noconfig.cmake
+[1.870s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cExport.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_cppExport.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.871s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cppExport.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_pyExport.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/rosidl_cmake-extras.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.872s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfacesConfig.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfacesConfig-version.cmake
+[1.873s] -- Up-to-date: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/package.xml
+[1.875s] Invoked command in '/home/robot/human_ws/build/myinterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/human_ws/build/myinterfaces

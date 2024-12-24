@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from myinterfaces/srv/Humancoordinates.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "sensor_msgs/msg/CameraInfo.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module myinterfaces {
+  module srv {
+    struct Humancoordinates_Request {
+      sensor_msgs::msg::CameraInfo camera_info;
+
+      sensor_msgs::msg::Image image;
+
+      sensor_msgs::msg::Image depth_image;
+    };
+    struct Humancoordinates_Response {
+      geometry_msgs::msg::Point coordinate;
+
+      boolean response;
+    };
+  };
+};

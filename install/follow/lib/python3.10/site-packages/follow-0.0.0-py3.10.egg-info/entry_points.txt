@@ -1,0 +1,7 @@
+[console_scripts]
+camerainfo = follow.camerainfo_tag:main
+head_client = follow.head_client:main
+robot_head_controller = follow.head_server:main
+rotate_human_node = follow.rotate_human_server:main
+tag_server = follow.tag_server:main
+

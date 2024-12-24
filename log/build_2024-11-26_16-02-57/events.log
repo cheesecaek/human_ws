@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000444] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000637] (-) JobUnselected: {'identifier': 'follow'}
+[0.000688] (-) JobUnselected: {'identifier': 'human'}
+[0.000765] (-) JobUnselected: {'identifier': 'image'}
+[0.000793] (-) JobUnselected: {'identifier': 'listen'}
+[0.000821] (-) JobUnselected: {'identifier': 'locomotion'}
+[0.000855] (-) JobUnselected: {'identifier': 'manager'}
+[0.000880] (-) JobUnselected: {'identifier': 'myinterfaces'}
+[0.000904] (-) JobUnselected: {'identifier': 'rotate'}
+[0.000930] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict()}
+[0.000959] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[0.008225] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[0.008444] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/human_ws/src/apriltag_ros', '-DCMAKE_INSTALL_PREFIX=/home/robot/human_ws/install/apriltag_ros'], 'cwd': '/home/robot/human_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/robot_controller_release/ros2_packages/livox_lidar_node/lib:/home/robot/robot_controller_release/ros2_packages/custom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot/human_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robot/miniconda3/condabin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1567,unix/robot-minipc:/tmp/.ICE-unix/1567'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48db1138_b8db_4f73_8062_8ca61d56d83d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5W30X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble')]), 'shell': False}
+[0.099804] (-) TimerEvent: {}
+[0.200242] (-) TimerEvent: {}
+[0.204930] (apriltag_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300372] (-) TimerEvent: {}
+[0.359932] (apriltag_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.370379] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400494] (-) TimerEvent: {}
+[0.477187] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.482992] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.483512] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.484076] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.486563] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500573] (-) TimerEvent: {}
+[0.598382] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600676] (-) TimerEvent: {}
+[0.603292] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.603500] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.603818] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.609923] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700794] (-) TimerEvent: {}
+[0.752271] (apriltag_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800917] (-) TimerEvent: {}
+[0.901169] (-) TimerEvent: {}
+[0.902360] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.907245] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.916964] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.929130] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.944373] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.986868] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.989951] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001251] (-) TimerEvent: {}
+[1.100665] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.101338] (-) TimerEvent: {}
+[1.132406] (apriltag_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.166073] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.181624] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201481] (-) TimerEvent: {}
+[1.290656] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.291263] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301569] (-) TimerEvent: {}
+[1.398493] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.400006] (apriltag_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401646] (-) TimerEvent: {}
+[1.453739] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.479925] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.501781] (-) TimerEvent: {}
+[1.506497] (apriltag_ros) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[1.518323] (apriltag_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.581260] (apriltag_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.598399] (apriltag_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.601885] (-) TimerEvent: {}
+[1.613171] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core calib3d \n'}
+[1.623012] (apriltag_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.680789] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.680982] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.681066] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.681882] (apriltag_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.695304] (apriltag_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[1.696584] (apriltag_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/human_ws/build/apriltag_ros\n'}
+[1.702017] (-) TimerEvent: {}
+[1.704104] (apriltag_ros) CommandEnded: {'returncode': 0}
+[1.705555] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[1.705689] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/human_ws/build/apriltag_ros', '--', '-j16', '-l16'], 'cwd': '/home/robot/human_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/robot_controller_release/ros2_packages/livox_lidar_node/lib:/home/robot/robot_controller_release/ros2_packages/custom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot/human_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robot/miniconda3/condabin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1567,unix/robot-minipc:/tmp/.ICE-unix/1567'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48db1138_b8db_4f73_8062_8ca61d56d83d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5W30X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble')]), 'shell': False}
+[1.762157] (apriltag_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o\x1b[0m\n'}
+[1.762376] (apriltag_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/conversion.dir/src/conversion.cpp.o\x1b[0m\n'}
+[1.762741] (apriltag_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tags.dir/src/tag_functions.cpp.o\x1b[0m\n'}
+[1.802175] (-) TimerEvent: {}
+[1.902488] (-) TimerEvent: {}
+[2.002782] (-) TimerEvent: {}
+[2.103085] (-) TimerEvent: {}
+[2.172122] (apriltag_ros) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libtags.a\x1b[0m\n'}
+[2.203253] (-) TimerEvent: {}
+[2.303518] (-) TimerEvent: {}
+[2.403805] (-) TimerEvent: {}
+[2.504093] (-) TimerEvent: {}
+[2.588640] (apriltag_ros) StdoutLine: {'line': b'[ 40%] Built target tags\n'}
+[2.604237] (-) TimerEvent: {}
+[2.704545] (-) TimerEvent: {}
+[2.804874] (-) TimerEvent: {}
+[2.905190] (-) TimerEvent: {}
+[3.005509] (-) TimerEvent: {}
+[3.032246] (apriltag_ros) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libconversion.a\x1b[0m\n'}
+[3.091949] (apriltag_ros) StdoutLine: {'line': b'[ 50%] Built target conversion\n'}
+[3.105617] (-) TimerEvent: {}
+[3.113424] (apriltag_ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/pose_estimation.dir/src/pose_estimation.cpp.o\x1b[0m\n'}
+[3.205722] (-) TimerEvent: {}
+[3.306026] (-) TimerEvent: {}
+[3.406349] (-) TimerEvent: {}
+[3.506680] (-) TimerEvent: {}
+[3.607015] (-) TimerEvent: {}
+[3.707333] (-) TimerEvent: {}
+[3.807674] (-) TimerEvent: {}
+[3.908025] (-) TimerEvent: {}
+[4.008393] (-) TimerEvent: {}
+[4.108694] (-) TimerEvent: {}
+[4.149068] (apriltag_ros) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libpose_estimation.a\x1b[0m\n'}
+[4.206429] (apriltag_ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable apriltag_node\x1b[0m\n'}
+[4.208793] (-) TimerEvent: {}
+[4.212765] (apriltag_ros) StdoutLine: {'line': b'[ 80%] Built target pose_estimation\n'}
+[4.238379] (apriltag_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o\x1b[0m\n'}
+[4.308958] (-) TimerEvent: {}
+[4.322024] (apriltag_ros) StdoutLine: {'line': b'[ 90%] Built target apriltag_node\n'}
+[4.409108] (-) TimerEvent: {}
+[4.509497] (-) TimerEvent: {}
+[4.609826] (-) TimerEvent: {}
+[4.710220] (-) TimerEvent: {}
+[4.810512] (-) TimerEvent: {}
+[4.910805] (-) TimerEvent: {}
+[5.011211] (-) TimerEvent: {}
+[5.111506] (-) TimerEvent: {}
+[5.211867] (-) TimerEvent: {}
+[5.312290] (-) TimerEvent: {}
+[5.412593] (-) TimerEvent: {}
+[5.513026] (-) TimerEvent: {}
+[5.613408] (-) TimerEvent: {}
+[5.713743] (-) TimerEvent: {}
+[5.814082] (-) TimerEvent: {}
+[5.914401] (-) TimerEvent: {}
+[6.014735] (-) TimerEvent: {}
+[6.115068] (-) TimerEvent: {}
+[6.215414] (-) TimerEvent: {}
+[6.315762] (-) TimerEvent: {}
+[6.416152] (-) TimerEvent: {}
+[6.516471] (-) TimerEvent: {}
+[6.616880] (-) TimerEvent: {}
+[6.717397] (-) TimerEvent: {}
+[6.817952] (-) TimerEvent: {}
+[6.918394] (-) TimerEvent: {}
+[7.018740] (-) TimerEvent: {}
+[7.119218] (-) TimerEvent: {}
+[7.219649] (-) TimerEvent: {}
+[7.320137] (-) TimerEvent: {}
+[7.420482] (-) TimerEvent: {}
+[7.520910] (-) TimerEvent: {}
+[7.621279] (-) TimerEvent: {}
+[7.721642] (-) TimerEvent: {}
+[7.822107] (-) TimerEvent: {}
+[7.922433] (-) TimerEvent: {}
+[8.022782] (-) TimerEvent: {}
+[8.123186] (-) TimerEvent: {}
+[8.223472] (-) TimerEvent: {}
+[8.301526] (apriltag_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libAprilTagNode.so\x1b[0m\n'}
+[8.323634] (-) TimerEvent: {}
+[8.424267] (-) TimerEvent: {}
+[8.524826] (-) TimerEvent: {}
+[8.549788] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target AprilTagNode\n'}
+[8.561910] (apriltag_ros) CommandEnded: {'returncode': 0}
+[8.621398] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[8.625019] (-) TimerEvent: {}
+[8.634895] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/human_ws/build/apriltag_ros'], 'cwd': '/home/robot/human_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/robot_controller_release/ros2_packages/livox_lidar_node/lib:/home/robot/robot_controller_release/ros2_packages/custom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot/human_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robot/miniconda3/condabin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1567,unix/robot-minipc:/tmp/.ICE-unix/1567'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48db1138_b8db_4f73_8062_8ca61d56d83d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5W30X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble')]), 'shell': False}
+[8.648117] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.648611] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node\n'}
+[8.648913] (apriltag_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node" to ""\n'}
+[8.649057] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[8.649228] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[8.649346] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[8.652137] (apriltag_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/apriltag_ros/lib/libAprilTagNode.so" to ""\n'}
+[8.652461] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/cfg\n'}
+[8.652694] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml\n'}
+[8.652875] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/launch\n'}
+[8.653040] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/launch/v4l2_36h11.launch.yml\n'}
+[8.653284] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[8.653465] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[8.653612] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[8.653736] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[8.653888] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[8.654038] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[8.654200] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[8.654356] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[8.654477] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[8.654587] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[8.654692] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[8.654792] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[8.654893] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[8.654999] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[8.655104] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[8.655227] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[8.656206] (apriltag_ros) CommandEnded: {'returncode': 0}
+[8.725230] (-) TimerEvent: {}
+[8.740867] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[8.742048] (-) EventReactorShutdown: {}

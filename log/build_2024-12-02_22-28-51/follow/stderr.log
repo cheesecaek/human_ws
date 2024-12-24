@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/tag_server.py", line 37
+    self.x_offset = [0.0,1.7,0.0, 1.7, 1.2, 0， -3.0]
+                                            ^
+SyntaxError: invalid decimal literal
+

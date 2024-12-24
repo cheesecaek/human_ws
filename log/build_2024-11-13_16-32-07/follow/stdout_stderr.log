@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/follow/follow.egg-info
+writing ../../build/follow/follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow/follow.egg-info/dependency_links.txt
+writing entry points to ../../build/follow/follow.egg-info/entry_points.txt
+writing requirements to ../../build/follow/follow.egg-info/requires.txt
+writing top-level names to ../../build/follow/follow.egg-info/top_level.txt
+writing manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+reading manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/human_ws/build/follow/build
+creating /home/robot/human_ws/build/follow/build/lib
+creating /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/__init__.py -> /home/robot/human_ws/build/follow/build/lib/follow
+copying follow/setup.py -> /home/robot/human_ws/build/follow/build/lib/follow
+creating /home/robot/human_ws/build/follow/build/lib/follow/follow
+copying follow/follow/__init__.py -> /home/robot/human_ws/build/follow/build/lib/follow/follow
+copying follow/follow/follower.py -> /home/robot/human_ws/build/follow/build/lib/follow/follow
+copying follow/follow/test_publisher.py -> /home/robot/human_ws/build/follow/build/lib/follow/follow
+running install
+running install_lib
+creating /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+creating /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow
+copying /home/robot/human_ws/build/follow/build/lib/follow/follow/__init__.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow
+copying /home/robot/human_ws/build/follow/build/lib/follow/follow/follower.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow
+copying /home/robot/human_ws/build/follow/build/lib/follow/follow/test_publisher.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow
+copying /home/robot/human_ws/build/follow/build/lib/follow/__init__.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+copying /home/robot/human_ws/build/follow/build/lib/follow/setup.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow/follower.py to follower.cpython-310.pyc
+byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow/test_publisher.py to test_publisher.cpython-310.pyc
+byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/setup.py to setup.cpython-310.pyc
+running install_data
+creating /home/robot/human_ws/install/follow/share/ament_index
+creating /home/robot/human_ws/install/follow/share/ament_index/resource_index
+creating /home/robot/human_ws/install/follow/share/ament_index/resource_index/packages
+copying resource/follow -> /home/robot/human_ws/install/follow/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/human_ws/install/follow/share/follow
+running install_egg_info
+Copying ../../build/follow/follow.egg-info to /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/robot/human_ws/build/follow/install.log'

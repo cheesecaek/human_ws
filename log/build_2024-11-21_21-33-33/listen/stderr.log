@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/listen/lib/python3.10/site-packages/listen/listen.py", line 9
+    self.__init__(self):
+                       ^
+SyntaxError: invalid syntax
+

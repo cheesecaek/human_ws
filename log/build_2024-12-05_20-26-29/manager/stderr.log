@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager/manager.py", line 237
+    vel.angular.z = 0.25 if self.pixel_x not None and self.pixel_x<320 else -0.25
+                    ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected 'else' after 'if' expression
+

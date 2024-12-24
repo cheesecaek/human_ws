@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/devon/ros2_dev/install/realsensecam_demo/lib/python3.10/site-packages",
+        "/home/devon/ros2_dev/install/realsense_test/lib/python3.10/site-packages",
+        "/home/devon/ros2_dev/install/realsense_subscriber_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/devon/ros2_dev/install/realsensecam_demo/lib/python3.10/site-packages",
+        "/home/devon/ros2_dev/install/realsense_test/lib/python3.10/site-packages",
+        "/home/devon/ros2_dev/install/realsense_subscriber_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

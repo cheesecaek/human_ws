@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/manager/lib/python3.10/site-packages/manager/manager.py", line 4
+    class 
+          ^
+SyntaxError: invalid syntax
+

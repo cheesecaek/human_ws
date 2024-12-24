@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000568] (-) JobUnselected: {'identifier': 'action_server'}
+[0.000613] (-) JobUnselected: {'identifier': 'apriltag_detection'}
+[0.000643] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000810] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000846] (-) JobUnselected: {'identifier': 'follow'}
+[0.000955] (-) JobUnselected: {'identifier': 'human'}
+[0.000982] (-) JobUnselected: {'identifier': 'image'}
+[0.001015] (-) JobUnselected: {'identifier': 'listen'}
+[0.001171] (-) JobUnselected: {'identifier': 'locomotion'}
+[0.001197] (-) JobUnselected: {'identifier': 'manager'}
+[0.001210] (myinterfaces) JobQueued: {'identifier': 'myinterfaces', 'dependencies': OrderedDict()}
+[0.001224] (myinterfaces) JobStarted: {'identifier': 'myinterfaces'}
+[0.008493] (myinterfaces) JobProgress: {'identifier': 'myinterfaces', 'progress': 'cmake'}
+[0.009471] (myinterfaces) JobProgress: {'identifier': 'myinterfaces', 'progress': 'build'}
+[0.010431] (myinterfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/human_ws/build/myinterfaces', '--', '-j16', '-l16'], 'cwd': '/home/robot/human_ws/build/myinterfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robot/human_ws/install/myinterfaces/lib:/home/robot/human_ws/install/depthimage_to_laserscan/lib:/home/robot/human_ws/install/apriltag_ros/lib:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node/lib:/home/robot/robot_controller_release/ros2_packages/custom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1607'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/robot/human_ws/install:/home/robot/robot_controller_release/ros2_packages'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robot/miniconda3/condabin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1566,unix/robot-minipc:/tmp/.ICE-unix/1566'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1495eb9a_5ea5_4f53_b87f_be165b146774'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1D2WX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3826dcf55c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/human_ws/install/rotate:/home/robot/human_ws/install/locomotion:/home/robot/human_ws/install/human:/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/manager:/home/robot/human_ws/install/listen:/home/robot/human_ws/install/image:/home/robot/human_ws/install/follow:/home/robot/human_ws/install/depthimage_to_laserscan:/home/robot/human_ws/install/apriltag_ros:/home/robot/human_ws/install/apriltag_detection:/home/robot/human_ws/install/action_server:/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/myinterfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/human_ws/install/rotate/lib/python3.10/site-packages:/home/robot/human_ws/install/locomotion/lib/python3.10/site-packages:/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:/home/robot/human_ws/install/manager/lib/python3.10/site-packages:/home/robot/human_ws/install/listen/lib/python3.10/site-packages:/home/robot/human_ws/install/image/lib/python3.10/site-packages:/home/robot/human_ws/install/follow/lib/python3.10/site-packages:/home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages:/home/robot/human_ws/install/action_server/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py/lib/python3.10/site-packages:/home/robot/robot_controller_release/ros2_packages/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/depthimage_to_laserscan:/home/robot/human_ws/install/apriltag_ros:/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1:/home/robot/human_ws/install/rotate:/home/robot/human_ws/install/locomotion:/home/robot/human_ws/install/human:/home/robot/human_ws/install/manager:/home/robot/human_ws/install/listen:/home/robot/human_ws/install/image:/home/robot/human_ws/install/follow:/home/robot/human_ws/install/apriltag_detection:/home/robot/human_ws/install/action_server:/home/robot/robot_controller_release/ros2_packages/object_detect_track_node_py:/opt/ros/humble')]), 'shell': False}
+[0.048280] (myinterfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099843] (-) TimerEvent: {}
+[0.162930] (myinterfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.165579] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167391] (myinterfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.189007] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200017] (-) TimerEvent: {}
+[0.204722] (myinterfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.229770] (myinterfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.300196] (-) TimerEvent: {}
+[0.400588] (-) TimerEvent: {}
+[0.500872] (-) TimerEvent: {}
+[0.521268] (myinterfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600979] (-) TimerEvent: {}
+[0.701281] (-) TimerEvent: {}
+[0.769062] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801357] (-) TimerEvent: {}
+[0.901611] (-) TimerEvent: {}
+[1.001886] (-) TimerEvent: {}
+[1.071879] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.097745] (myinterfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.102061] (-) TimerEvent: {}
+[1.129666] (myinterfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.129916] (myinterfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.130023] (myinterfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.173277] (myinterfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.178623] (myinterfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.179315] (myinterfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.180156] (myinterfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.202249] (-) TimerEvent: {}
+[1.206671] (myinterfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.208470] (myinterfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/human_ws/build/myinterfaces\n'}
+[1.234403] (myinterfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.247790] (myinterfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.251627] (myinterfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_myinterfaces\n'}
+[1.302349] (-) TimerEvent: {}
+[1.402632] (-) TimerEvent: {}
+[1.485345] (myinterfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.485682] (myinterfaces) StdoutLine: {'line': b'writing myinterfaces.egg-info/PKG-INFO\n'}
+[1.485826] (myinterfaces) StdoutLine: {'line': b'writing dependency_links to myinterfaces.egg-info/dependency_links.txt\n'}
+[1.485946] (myinterfaces) StdoutLine: {'line': b'writing top-level names to myinterfaces.egg-info/top_level.txt\n'}
+[1.487489] (myinterfaces) StdoutLine: {'line': b"reading manifest file 'myinterfaces.egg-info/SOURCES.txt'\n"}
+[1.487871] (myinterfaces) StdoutLine: {'line': b"writing manifest file 'myinterfaces.egg-info/SOURCES.txt'\n"}
+[1.502729] (-) TimerEvent: {}
+[1.518938] (myinterfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_myinterfaces_egg\n'}
+[1.602836] (-) TimerEvent: {}
+[1.636795] (myinterfaces) StdoutLine: {'line': b'[  2%] Built target myinterfaces__cpp\n'}
+[1.646688] (myinterfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.649504] (myinterfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.649714] (myinterfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.703066] (-) TimerEvent: {}
+[1.708690] (myinterfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myinterfaces__rosidl_generator_c\x1b[0m\n'}
+[1.724405] (myinterfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/srv/detail/humancoordinatespcd__functions.c.o\x1b[0m\n'}
+[1.727909] (myinterfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/msg/detail/detect_coordinates__functions.c.o\x1b[0m\n'}
+[1.728401] (myinterfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/msg/detail/state__functions.c.o\x1b[0m\n'}
+[1.728699] (myinterfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/srv/detail/tag__functions.c.o\x1b[0m\n'}
+[1.728807] (myinterfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/srv/detail/humancoordinates__functions.c.o\x1b[0m\n'}
+[1.729906] (myinterfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/srv/detail/action__functions.c.o\x1b[0m\n'}
+[1.747934] (myinterfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_generator_c/myinterfaces/srv/detail/tag__functions.h:19\x1b[m\x1b[K,\n'}
+[1.748232] (myinterfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_generator_c/myinterfaces/srv/detail/tag__functions.c:4\x1b[m\x1b[K:\n'}
+[1.748400] (myinterfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_generator_c/myinterfaces/srv/detail/tag__struct.h:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmyinterfaces/msg/detail/int16__struct.h: No such file or directory\n'}
+[1.748505] (myinterfaces) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K"myinterfaces/msg/detail/int16__struct.h"\x1b[m\x1b[K\n'}
+[1.748589] (myinterfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.748669] (myinterfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[1.748810] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/myinterfaces__rosidl_generator_c.dir/build.make:331: CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/srv/detail/tag__functions.c.o] Error 1\n'}
+[1.748962] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.780066] (myinterfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/myinterfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[1.780278] (myinterfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.803176] (-) TimerEvent: {}
+[1.903569] (-) TimerEvent: {}
+[1.978327] (myinterfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myinterfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.993298] (myinterfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/msg/detect_coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.993586] (myinterfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/srv/humancoordinatespcd__type_support.cpp.o\x1b[0m\n'}
+[1.994256] (myinterfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/srv/tag__type_support.cpp.o\x1b[0m\n'}
+[1.994690] (myinterfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/msg/state__type_support.cpp.o\x1b[0m\n'}
+[1.996196] (myinterfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/srv/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[1.999378] (myinterfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/srv/action__type_support.cpp.o\x1b[0m\n'}
+[2.003443] (myinterfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myinterfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.003919] (-) TimerEvent: {}
+[2.028940] (myinterfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/humancoordinatespcd__type_support.cpp.o\x1b[0m\n'}
+[2.029468] (myinterfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/action__type_support.cpp.o\x1b[0m\n'}
+[2.029640] (myinterfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/msg/detail/detect_coordinates__type_support.cpp.o\x1b[0m\n'}
+[2.029754] (myinterfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/msg/detail/state__type_support.cpp.o\x1b[0m\n'}
+[2.029898] (myinterfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/tag__type_support.cpp.o\x1b[0m\n'}
+[2.031498] (myinterfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[2.068980] (myinterfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_typesupport_cpp/myinterfaces/srv/tag__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[2.069310] (myinterfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_generator_cpp/myinterfaces/srv/detail/tag__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmyinterfaces/msg/detail/int16__struct.hpp: No such file or directory\n'}
+[2.069435] (myinterfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"myinterfaces/msg/detail/int16__struct.hpp"\x1b[m\x1b[K\n'}
+[2.069525] (myinterfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.069606] (myinterfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[2.070532] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/build.make:252: CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/srv/tag__type_support.cpp.o] Error 1\n'}
+[2.070716] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.086391] (myinterfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myinterfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.104173] (-) TimerEvent: {}
+[2.105489] (myinterfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/tag__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[2.105893] (myinterfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_generator_cpp/myinterfaces/srv/detail/tag__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmyinterfaces/msg/detail/int16__struct.hpp: No such file or directory\n'}
+[2.106035] (myinterfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"myinterfaces/msg/detail/int16__struct.hpp"\x1b[m\x1b[K\n'}
+[2.106179] (myinterfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.106296] (myinterfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[2.111283] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/build.make:272: CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/tag__type_support.cpp.o] Error 1\n'}
+[2.111750] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.112861] (myinterfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/tag__type_support.cpp.o\x1b[0m\n'}
+[2.113151] (myinterfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/humancoordinatespcd__type_support.cpp.o\x1b[0m\n'}
+[2.115665] (myinterfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/msg/detail/dds_fastrtps/detect_coordinates__type_support.cpp.o\x1b[0m\n'}
+[2.116197] (myinterfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/msg/detail/dds_fastrtps/state__type_support.cpp.o\x1b[0m\n'}
+[2.116372] (myinterfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[2.122282] (myinterfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/action__type_support.cpp.o\x1b[0m\n'}
+[2.204309] (-) TimerEvent: {}
+[2.228249] (myinterfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/tag__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[2.228635] (myinterfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/tag__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[2.228763] (myinterfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/human_ws/build/myinterfaces/rosidl_generator_cpp/myinterfaces/srv/detail/tag__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmyinterfaces/msg/detail/int16__struct.hpp: No such file or directory\n'}
+[2.228882] (myinterfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"myinterfaces/msg/detail/int16__struct.hpp"\x1b[m\x1b[K\n'}
+[2.228982] (myinterfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.229081] (myinterfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[2.232599] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:272: CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/tag__type_support.cpp.o] Error 1\n'}
+[2.233436] (myinterfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.305333] (-) TimerEvent: {}
+[2.409306] (-) TimerEvent: {}
+[2.435003] (myinterfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[2.509496] (-) TimerEvent: {}
+[2.610081] (-) TimerEvent: {}
+[2.710342] (myinterfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[2.710575] (-) TimerEvent: {}
+[2.737580] (myinterfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[2.737848] (myinterfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.739794] (myinterfaces) CommandEnded: {'returncode': 2}
+[2.810694] (-) TimerEvent: {}
+[2.911040] (-) TimerEvent: {}
+[2.988421] (myinterfaces) JobEnded: {'identifier': 'myinterfaces', 'rc': 2}
+[2.999045] (-) EventReactorShutdown: {}

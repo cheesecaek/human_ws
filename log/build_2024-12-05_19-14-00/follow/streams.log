@@ -1,0 +1,36 @@
+[2.026s] Invoking command in '/home/robot/human_ws/src/follow': PYTHONPATH=/home/robot/human_ws/build/follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow build --build-base /home/robot/human_ws/build/follow/build install --record /home/robot/human_ws/build/follow/install.log --single-version-externally-managed install_data
+[2.481s] running egg_info
+[2.481s] writing ../../build/follow/follow.egg-info/PKG-INFO
+[2.481s] writing dependency_links to ../../build/follow/follow.egg-info/dependency_links.txt
+[2.481s] writing entry points to ../../build/follow/follow.egg-info/entry_points.txt
+[2.481s] writing requirements to ../../build/follow/follow.egg-info/requires.txt
+[2.481s] writing top-level names to ../../build/follow/follow.egg-info/top_level.txt
+[2.483s] reading manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+[2.485s] writing manifest file '../../build/follow/follow.egg-info/SOURCES.txt'
+[2.485s] running build
+[2.485s] running build_py
+[2.485s] copying follow/head_server.py -> /home/robot/human_ws/build/follow/build/lib/follow
+[2.486s] copying follow/head_client.py -> /home/robot/human_ws/build/follow/build/lib/follow
+[2.486s] running install
+[2.486s] running install_lib
+[2.487s] copying /home/robot/human_ws/build/follow/build/lib/follow/head_server.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+[2.487s] copying /home/robot/human_ws/build/follow/build/lib/follow/head_client.py -> /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow
+[2.488s] byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/head_server.py to head_server.cpython-310.pyc
+[2.489s] byte-compiling /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/head_client.py to head_client.cpython-310.pyc
+[2.489s]   File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/head_client.py", line 63
+[2.489s]     Thread1 = threading.Thread(target = client.random_action, args = )
+[2.490s]                                                                      ^
+[2.490s] SyntaxError: invalid syntax
+[2.490s] 
+[2.490s] running install_data
+[2.490s] running install_egg_info
+[2.491s] removing '/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info' (and everything under it)
+[2.492s] Copying ../../build/follow/follow.egg-info to /home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow-0.0.0-py3.10.egg-info
+[2.492s] running install_scripts
+[2.509s] Installing camerainfo script to /home/robot/human_ws/install/follow/lib/follow
+[2.509s] Installing head_client script to /home/robot/human_ws/install/follow/lib/follow
+[2.509s] Installing robot_head_controller script to /home/robot/human_ws/install/follow/lib/follow
+[2.510s] Installing rotate_human_node script to /home/robot/human_ws/install/follow/lib/follow
+[2.510s] Installing tag_server script to /home/robot/human_ws/install/follow/lib/follow
+[2.510s] writing list of installed files to '/home/robot/human_ws/build/follow/install.log'
+[2.547s] Invoked command in '/home/robot/human_ws/src/follow' returned '0': PYTHONPATH=/home/robot/human_ws/build/follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow build --build-base /home/robot/human_ws/build/follow/build install --record /home/robot/human_ws/build/follow/install.log --single-version-externally-managed install_data

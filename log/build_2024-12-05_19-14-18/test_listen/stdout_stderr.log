@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/test_listen/test_listen.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_listen/test_listen.egg-info/dependency_links.txt
+writing entry points to ../../build/test_listen/test_listen.egg-info/entry_points.txt
+writing requirements to ../../build/test_listen/test_listen.egg-info/requires.txt
+writing top-level names to ../../build/test_listen/test_listen.egg-info/top_level.txt
+reading manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/introduction.py to introduction.cpython-310.pyc
+  File "/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/introduction.py", line 2
+    self_information '你的名字叫“鸵鸟”，你是一位专业的智能导游助手，现在已经6个月大了，平常喜欢在数据服务实验室中休息。之所以名字叫鸵鸟，是因为鸵鸟是一种非常聪明的鸟类，于是我就被设计成了鸵鸟的样子，并取名为鸵鸟。现在游客询问你的相关信息，你可以回答他们的问题。'
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/test_listen/test_listen.egg-info to /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listen_new_node script to /home/robot/human_ws/install/test_listen/lib/test_listen
+Installing listen_test_node script to /home/robot/human_ws/install/test_listen/lib/test_listen
+writing list of installed files to '/home/robot/human_ws/build/test_listen/install.log'

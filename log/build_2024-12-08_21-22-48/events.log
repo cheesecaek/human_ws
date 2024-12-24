@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.002896] (-) JobUnselected: {'identifier': 'follow'}
+[0.002932] (-) JobUnselected: {'identifier': 'human'}
+[0.002950] (-) JobUnselected: {'identifier': 'image'}
+[0.002963] (-) JobUnselected: {'identifier': 'manager'}
+[0.002977] (-) JobUnselected: {'identifier': 'myinterfaces'}
+[0.002990] (-) JobUnselected: {'identifier': 'startup'}
+[0.003002] (-) JobUnselected: {'identifier': 'test_listen'}
+[0.003016] (-) EventReactorShutdown: {}

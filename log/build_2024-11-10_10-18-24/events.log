@@ -1,0 +1,410 @@
+[0.000000] (-) TimerEvent: {}
+[0.000236] (myinterfaces) JobQueued: {'identifier': 'myinterfaces', 'dependencies': OrderedDict()}
+[0.000324] (human) JobQueued: {'identifier': 'human', 'dependencies': OrderedDict([('myinterfaces', '/home/robot/human_ws/install/myinterfaces')])}
+[0.000357] (myinterfaces) JobStarted: {'identifier': 'myinterfaces'}
+[0.005278] (myinterfaces) JobProgress: {'identifier': 'myinterfaces', 'progress': 'cmake'}
+[0.005500] (myinterfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/human_ws/src/myinterfaces', '-DCMAKE_INSTALL_PREFIX=/home/robot/human_ws/install/myinterfaces'], 'cwd': '/home/robot/human_ws/build/myinterfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/human_ws/install/myinterfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot/human_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/human_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/miniconda3/condabin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1523,unix/robot-minipc:/tmp/.ICE-unix/1523'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67bd9396_641d_40b8_ab1e_e74ead6fa4e5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MI3W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/human_ws/install/human:/home/robot/human_ws/install/myinterfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/myinterfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/human:/opt/ros/humble')]), 'shell': False}
+[0.099488] (-) TimerEvent: {}
+[0.199923] (-) TimerEvent: {}
+[0.226439] (myinterfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300178] (-) TimerEvent: {}
+[0.389802] (myinterfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400228] (-) TimerEvent: {}
+[0.403348] (myinterfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500357] (-) TimerEvent: {}
+[0.509997] (myinterfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.519754] (myinterfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.523354] (myinterfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.523883] (myinterfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.526546] (myinterfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600476] (-) TimerEvent: {}
+[0.639772] (myinterfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.644819] (myinterfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.645054] (myinterfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.645459] (myinterfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.650784] (myinterfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700651] (-) TimerEvent: {}
+[0.800876] (-) TimerEvent: {}
+[0.810627] (myinterfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900988] (-) TimerEvent: {}
+[0.908285] (myinterfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.917545] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.927311] (myinterfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.985622] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001139] (-) TimerEvent: {}
+[1.022533] (myinterfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.061963] (myinterfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101268] (-) TimerEvent: {}
+[1.201566] (-) TimerEvent: {}
+[1.301876] (-) TimerEvent: {}
+[1.309892] (myinterfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.402067] (-) TimerEvent: {}
+[1.502338] (-) TimerEvent: {}
+[1.534140] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602539] (-) TimerEvent: {}
+[1.702920] (-) TimerEvent: {}
+[1.803161] (-) TimerEvent: {}
+[1.841993] (myinterfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.864761] (myinterfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.867182] (myinterfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.903305] (myinterfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.903716] (-) TimerEvent: {}
+[1.903912] (myinterfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.904026] (myinterfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.904109] (myinterfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.928971] (myinterfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.996585] (myinterfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.003841] (-) TimerEvent: {}
+[2.018773] (myinterfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.021124] (myinterfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.022820] (myinterfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.044136] (myinterfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.045520] (myinterfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/human_ws/build/myinterfaces\n'}
+[2.051972] (myinterfaces) CommandEnded: {'returncode': 0}
+[2.053647] (myinterfaces) JobProgress: {'identifier': 'myinterfaces', 'progress': 'build'}
+[2.053667] (myinterfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/human_ws/build/myinterfaces', '--', '-j16', '-l16'], 'cwd': '/home/robot/human_ws/build/myinterfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/human_ws/install/myinterfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot/human_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/human_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/miniconda3/condabin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1523,unix/robot-minipc:/tmp/.ICE-unix/1523'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67bd9396_641d_40b8_ab1e_e74ead6fa4e5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MI3W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/human_ws/install/human:/home/robot/human_ws/install/myinterfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/myinterfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/human:/opt/ros/humble')]), 'shell': False}
+[2.094169] (myinterfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.103953] (-) TimerEvent: {}
+[2.106246] (myinterfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.114015] (myinterfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_myinterfaces\n'}
+[2.204054] (-) TimerEvent: {}
+[2.292023] (myinterfaces) StdoutLine: {'line': b'[  6%] Built target myinterfaces__cpp\n'}
+[2.294283] (myinterfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_c.dir/rosidl_generator_c/myinterfaces/srv/detail/humancoordinates__functions.c.o\x1b[0m\n'}
+[2.301005] (myinterfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.301202] (myinterfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.303332] (myinterfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.304118] (-) TimerEvent: {}
+[2.316768] (myinterfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.317513] (myinterfaces) StdoutLine: {'line': b'creating myinterfaces.egg-info\n'}
+[2.317819] (myinterfaces) StdoutLine: {'line': b'writing myinterfaces.egg-info/PKG-INFO\n'}
+[2.318106] (myinterfaces) StdoutLine: {'line': b'writing dependency_links to myinterfaces.egg-info/dependency_links.txt\n'}
+[2.318408] (myinterfaces) StdoutLine: {'line': b'writing top-level names to myinterfaces.egg-info/top_level.txt\n'}
+[2.318780] (myinterfaces) StdoutLine: {'line': b"writing manifest file 'myinterfaces.egg-info/SOURCES.txt'\n"}
+[2.322473] (myinterfaces) StdoutLine: {'line': b"reading manifest file 'myinterfaces.egg-info/SOURCES.txt'\n"}
+[2.323132] (myinterfaces) StdoutLine: {'line': b"writing manifest file 'myinterfaces.egg-info/SOURCES.txt'\n"}
+[2.359037] (myinterfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_myinterfaces_egg\n'}
+[2.404361] (-) TimerEvent: {}
+[2.406453] (myinterfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmyinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.462301] (myinterfaces) StdoutLine: {'line': b'[ 22%] Built target myinterfaces__rosidl_generator_c\n'}
+[2.473521] (myinterfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myinterfaces/srv/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[2.475059] (myinterfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.475239] (myinterfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.475286] (myinterfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.489799] (myinterfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myinterfaces/srv/detail/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[2.504491] (-) TimerEvent: {}
+[2.505562] (myinterfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myinterfaces/srv/detail/dds_fastrtps/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[2.604619] (-) TimerEvent: {}
+[2.652588] (myinterfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/myinterfaces/srv/humancoordinates__type_support.cpp.o\x1b[0m\n'}
+[2.692541] (myinterfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/humancoordinates__type_support.c.o\x1b[0m\n'}
+[2.697217] (myinterfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmyinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.701961] (myinterfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myinterfaces/srv/detail/humancoordinates__type_support_c.cpp.o\x1b[0m\n'}
+[2.704726] (-) TimerEvent: {}
+[2.737535] (myinterfaces) StdoutLine: {'line': b'[ 54%] Built target myinterfaces__rosidl_typesupport_c\n'}
+[2.747026] (myinterfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmyinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.781020] (myinterfaces) StdoutLine: {'line': b'[ 58%] Built target myinterfaces__rosidl_typesupport_introspection_c\n'}
+[2.791173] (myinterfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmyinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.804845] (-) TimerEvent: {}
+[2.829356] (myinterfaces) StdoutLine: {'line': b'[ 61%] Built target myinterfaces__rosidl_typesupport_cpp\n'}
+[2.879938] (myinterfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmyinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.904974] (-) TimerEvent: {}
+[2.938085] (myinterfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmyinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.951120] (myinterfaces) StdoutLine: {'line': b'[ 67%] Built target myinterfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.971516] (myinterfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmyinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.005110] (-) TimerEvent: {}
+[3.005943] (myinterfaces) StdoutLine: {'line': b'[ 70%] Built target myinterfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.036834] (myinterfaces) StdoutLine: {'line': b'[ 70%] Built target myinterfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.058674] (myinterfaces) StdoutLine: {'line': b'[ 70%] Built target myinterfaces\n'}
+[3.084612] (myinterfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.105244] (-) TimerEvent: {}
+[3.205602] (-) TimerEvent: {}
+[3.305934] (-) TimerEvent: {}
+[3.330233] (myinterfaces) StdoutLine: {'line': b'[ 74%] Built target myinterfaces__py\n'}
+[3.356287] (myinterfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_generator_py.dir/rosidl_generator_py/myinterfaces/srv/_humancoordinates_s.c.o\x1b[0m\n'}
+[3.406089] (-) TimerEvent: {}
+[3.470576] (myinterfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myinterfaces/libmyinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.506198] (-) TimerEvent: {}
+[3.521382] (myinterfaces) StdoutLine: {'line': b'[ 80%] Built target myinterfaces__rosidl_generator_py\n'}
+[3.551499] (myinterfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.551707] (myinterfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.551799] (myinterfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/myinterfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.606340] (-) TimerEvent: {}
+[3.620786] (myinterfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myinterfaces/myinterfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.624460] (myinterfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myinterfaces/myinterfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.638357] (myinterfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myinterfaces/myinterfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.654476] (myinterfaces) StdoutLine: {'line': b'[100%] Built target myinterfaces__rosidl_typesupport_c__pyext\n'}
+[3.659900] (myinterfaces) StdoutLine: {'line': b'[100%] Built target myinterfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.679240] (myinterfaces) StdoutLine: {'line': b'[100%] Built target myinterfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.694224] (myinterfaces) CommandEnded: {'returncode': 0}
+[3.706487] (-) TimerEvent: {}
+[3.775340] (myinterfaces) JobProgress: {'identifier': 'myinterfaces', 'progress': 'install'}
+[3.785815] (myinterfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/human_ws/build/myinterfaces'], 'cwd': '/home/robot/human_ws/build/myinterfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/human_ws/install/myinterfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robot/human_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/human_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/miniconda3/condabin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-minipc:@/tmp/.ICE-unix/1523,unix/robot-minipc:/tmp/.ICE-unix/1523'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67bd9396_641d_40b8_ab1e_e74ead6fa4e5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MI3W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/human_ws/install/human:/home/robot/human_ws/install/myinterfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robot/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/human_ws/build/myinterfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robot/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/human:/opt/ros/humble')]), 'shell': False}
+[3.798841] (myinterfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.799006] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/rosidl_interfaces/myinterfaces\n'}
+[3.799257] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces\n'}
+[3.799346] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv\n'}
+[3.799406] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail\n'}
+[3.799455] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__functions.h\n'}
+[3.799544] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__functions.c\n'}
+[3.799745] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__struct.h\n'}
+[3.799931] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__type_support.h\n'}
+[3.800098] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/humancoordinates.h\n'}
+[3.800251] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg\n'}
+[3.800303] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.800461] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/library_path.sh\n'}
+[3.800671] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/library_path.dsv\n'}
+[3.801117] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_generator_c.so\n'}
+[3.801636] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_generator_c.so" to ""\n'}
+[3.801719] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces\n'}
+[3.801762] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv\n'}
+[3.801828] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail\n'}
+[3.801874] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[3.801987] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg\n'}
+[3.802044] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.802453] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.802959] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.803086] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces\n'}
+[3.803134] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv\n'}
+[3.803202] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail\n'}
+[3.803246] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_introspection_c.h\n'}
+[3.803310] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__type_support.c\n'}
+[3.803350] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg\n'}
+[3.803385] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.803488] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.803639] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.803722] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_c.so\n'}
+[3.803942] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.803978] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces\n'}
+[3.804010] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv\n'}
+[3.804064] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail\n'}
+[3.804099] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__builder.hpp\n'}
+[3.804153] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__traits.hpp\n'}
+[3.804190] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__struct.hpp\n'}
+[3.804247] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/humancoordinates.hpp\n'}
+[3.804285] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces\n'}
+[3.804339] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv\n'}
+[3.804373] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail\n'}
+[3.804408] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.804459] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/dds_fastrtps\n'}
+[3.804491] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg\n'}
+[3.804524] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.804573] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.804686] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.804745] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces\n'}
+[3.804783] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv\n'}
+[3.804824] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail\n'}
+[3.804881] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__type_support.cpp\n'}
+[3.804916] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/include/myinterfaces/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.804982] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.805186] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.805267] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.805428] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.805476] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/pythonpath.sh\n'}
+[3.805539] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/pythonpath.dsv\n'}
+[3.805608] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info\n'}
+[3.805661] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.805713] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.805763] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.805816] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.805895] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces\n'}
+[3.805947] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.806001] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/__init__.py\n'}
+[3.806054] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.806122] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.806186] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/libmyinterfaces__rosidl_generator_py.so\n'}
+[3.806259] (myinterfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv\n'}
+[3.806312] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/__init__.py\n'}
+[3.806364] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_humancoordinates.py\n'}
+[3.806418] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_humancoordinates_s.c\n'}
+[3.806482] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/_myinterfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.806523] (-) TimerEvent: {}
+[3.806623] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.806696] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.840627] (myinterfaces) StdoutLine: {'line': b"Listing '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces'...\n"}
+[3.840821] (myinterfaces) StdoutLine: {'line': b"Compiling '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/__init__.py'...\n"}
+[3.840877] (myinterfaces) StdoutLine: {'line': b"Listing '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv'...\n"}
+[3.840915] (myinterfaces) StdoutLine: {'line': b"Compiling '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/__init__.py'...\n"}
+[3.840949] (myinterfaces) StdoutLine: {'line': b"Compiling '/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/srv/_humancoordinates.py'...\n"}
+[3.844098] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.844247] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.844351] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.844461] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.844507] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.844576] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages/myinterfaces/myinterfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.844657] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_generator_py.so\n'}
+[3.844822] (myinterfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/human_ws/install/myinterfaces/lib/libmyinterfaces__rosidl_generator_py.so" to ""\n'}
+[3.844862] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates.idl\n'}
+[3.844922] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates.srv\n'}
+[3.844986] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates_Request.msg\n'}
+[3.845040] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/srv/Humancoordinates_Response.msg\n'}
+[3.845099] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/package_run_dependencies/myinterfaces\n'}
+[3.845161] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/parent_prefix_path/myinterfaces\n'}
+[3.845224] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/ament_prefix_path.sh\n'}
+[3.845283] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/ament_prefix_path.dsv\n'}
+[3.845341] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/path.sh\n'}
+[3.845399] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/environment/path.dsv\n'}
+[3.845457] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.bash\n'}
+[3.845519] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.sh\n'}
+[3.845593] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.zsh\n'}
+[3.845634] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/local_setup.dsv\n'}
+[3.845688] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/package.dsv\n'}
+[3.845747] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/ament_index/resource_index/packages/myinterfaces\n'}
+[3.845835] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_cExport.cmake\n'}
+[3.845907] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.845993] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.846057] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.846143] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.846218] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.846290] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.846350] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.846430] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_cppExport.cmake\n'}
+[3.846511] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.846573] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.846652] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.846711] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.846791] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.846854] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.846934] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_pyExport.cmake\n'}
+[3.846993] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/export_myinterfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.847053] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.847110] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.847175] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.847273] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.847418] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.847525] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.847631] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.847705] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfacesConfig.cmake\n'}
+[3.847777] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/cmake/myinterfacesConfig-version.cmake\n'}
+[3.847862] (myinterfaces) StdoutLine: {'line': b'-- Installing: /home/robot/human_ws/install/myinterfaces/share/myinterfaces/package.xml\n'}
+[3.849156] (myinterfaces) CommandEnded: {'returncode': 0}
+[3.906641] (-) TimerEvent: {}
+[3.925096] (myinterfaces) JobEnded: {'identifier': 'myinterfaces', 'rc': 0}
+[3.926538] (human) JobStarted: {'identifier': 'human'}
+[4.006783] (-) TimerEvent: {}
+[4.107074] (-) TimerEvent: {}
+[4.207355] (-) TimerEvent: {}
+[4.307765] (-) TimerEvent: {}
+[4.408083] (-) TimerEvent: {}
+[4.508387] (-) TimerEvent: {}
+[4.608813] (-) TimerEvent: {}
+[4.617984] (human) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/human', 'build', '--build-base', '/home/robot/human_ws/build/human/build', 'install', '--record', '/home/robot/human_ws/build/human/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/human_ws/src/human', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/human_ws/install/myinterfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robot', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/robot/human_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1563', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robot/human_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robot/miniconda3/condabin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot-minipc:@/tmp/.ICE-unix/1523,unix/robot-minipc:/tmp/.ICE-unix/1523', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67bd9396_641d_40b8_ab1e_e74ead6fa4e5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2MI3W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robot/human_ws/install/human:/home/robot/human_ws/install/myinterfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/robot/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robot/human_ws/build/human', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/robot/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/human/lib/python3.10/site-packages:/home/robot/human_ws/install/myinterfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robot/human_ws/install/myinterfaces'}, 'shell': False}
+[4.709018] (-) TimerEvent: {}
+[4.800723] (human) StdoutLine: {'line': b'running egg_info\n'}
+[4.800928] (human) StdoutLine: {'line': b'creating ../../build/human/human.egg-info\n'}
+[4.801121] (human) StdoutLine: {'line': b'writing ../../build/human/human.egg-info/PKG-INFO\n'}
+[4.801311] (human) StdoutLine: {'line': b'writing dependency_links to ../../build/human/human.egg-info/dependency_links.txt\n'}
+[4.801365] (human) StdoutLine: {'line': b'writing entry points to ../../build/human/human.egg-info/entry_points.txt\n'}
+[4.801508] (human) StdoutLine: {'line': b'writing requirements to ../../build/human/human.egg-info/requires.txt\n'}
+[4.801574] (human) StdoutLine: {'line': b'writing top-level names to ../../build/human/human.egg-info/top_level.txt\n'}
+[4.801608] (human) StdoutLine: {'line': b"writing manifest file '../../build/human/human.egg-info/SOURCES.txt'\n"}
+[4.802959] (human) StdoutLine: {'line': b"reading manifest file '../../build/human/human.egg-info/SOURCES.txt'\n"}
+[4.803496] (human) StdoutLine: {'line': b"writing manifest file '../../build/human/human.egg-info/SOURCES.txt'\n"}
+[4.803572] (human) StdoutLine: {'line': b'running build\n'}
+[4.803610] (human) StdoutLine: {'line': b'running build_py\n'}
+[4.803686] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build\n'}
+[4.803716] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib\n'}
+[4.803743] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib/human\n'}
+[4.803769] (human) StdoutLine: {'line': b'copying human/rstest.py -> /home/robot/human_ws/build/human/build/lib/human\n'}
+[4.803796] (human) StdoutLine: {'line': b'copying human/__init__.py -> /home/robot/human_ws/build/human/build/lib/human\n'}
+[4.803858] (human) StdoutLine: {'line': b'copying human/human_client.py -> /home/robot/human_ws/build/human/build/lib/human\n'}
+[4.803885] (human) StdoutLine: {'line': b'copying human/human_detection.py -> /home/robot/human_ws/build/human/build/lib/human\n'}
+[4.803911] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib/human/models\n'}
+[4.803954] (human) StdoutLine: {'line': b'copying human/models/tf.py -> /home/robot/human_ws/build/human/build/lib/human/models\n'}
+[4.803980] (human) StdoutLine: {'line': b'copying human/models/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/models\n'}
+[4.804009] (human) StdoutLine: {'line': b'copying human/models/common.py -> /home/robot/human_ws/build/human/build/lib/human/models\n'}
+[4.804053] (human) StdoutLine: {'line': b'copying human/models/experimental.py -> /home/robot/human_ws/build/human/build/lib/human/models\n'}
+[4.804079] (human) StdoutLine: {'line': b'copying human/models/yolo.py -> /home/robot/human_ws/build/human/build/lib/human/models\n'}
+[4.804132] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804184] (human) StdoutLine: {'line': b'copying human/utils/plots.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804235] (human) StdoutLine: {'line': b'copying human/utils/loss.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804276] (human) StdoutLine: {'line': b'copying human/utils/metrics.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804317] (human) StdoutLine: {'line': b'copying human/utils/torch_utils.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804357] (human) StdoutLine: {'line': b'copying human/utils/callbacks.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804415] (human) StdoutLine: {'line': b'copying human/utils/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804450] (human) StdoutLine: {'line': b'copying human/utils/downloads.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804510] (human) StdoutLine: {'line': b'copying human/utils/datasets.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804552] (human) StdoutLine: {'line': b'copying human/utils/general.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804581] (human) StdoutLine: {'line': b'copying human/utils/activations.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804631] (human) StdoutLine: {'line': b'copying human/utils/autoanchor.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804682] (human) StdoutLine: {'line': b'copying human/utils/augmentations.py -> /home/robot/human_ws/build/human/build/lib/human/utils\n'}
+[4.804734] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib/human/utils/loggers\n'}
+[4.804762] (human) StdoutLine: {'line': b'copying human/utils/loggers/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers\n'}
+[4.804810] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib/human/utils/aws\n'}
+[4.804876] (human) StdoutLine: {'line': b'copying human/utils/aws/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils/aws\n'}
+[4.804941] (human) StdoutLine: {'line': b'copying human/utils/aws/resume.py -> /home/robot/human_ws/build/human/build/lib/human/utils/aws\n'}
+[4.805008] (human) StdoutLine: {'line': b'creating /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb\n'}
+[4.805070] (human) StdoutLine: {'line': b'copying human/utils/loggers/wandb/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb\n'}
+[4.805111] (human) StdoutLine: {'line': b'copying human/utils/loggers/wandb/log_dataset.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb\n'}
+[4.805179] (human) StdoutLine: {'line': b'copying human/utils/loggers/wandb/wandb_utils.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb\n'}
+[4.805210] (human) StdoutLine: {'line': b'copying human/utils/loggers/wandb/sweep.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb\n'}
+[4.805619] (human) StdoutLine: {'line': b'running install\n'}
+[4.805739] (human) StdoutLine: {'line': b'running install_lib\n'}
+[4.806259] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/rstest.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human\n'}
+[4.806322] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/__init__.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human\n'}
+[4.806356] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/models/tf.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models\n'}
+[4.806396] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/models/__init__.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models\n'}
+[4.806436] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/models/common.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models\n'}
+[4.806476] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/models/experimental.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models\n'}
+[4.806524] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/models/yolo.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models\n'}
+[4.806572] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/human_client.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human\n'}
+[4.806614] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/human_detection.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human\n'}
+[4.806667] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/plots.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.806742] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/loggers/__init__.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers\n'}
+[4.806809] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb/__init__.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb\n'}
+[4.806862] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb/log_dataset.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb\n'}
+[4.806911] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb/wandb_utils.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb\n'}
+[4.806959] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb/sweep.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb\n'}
+[4.807006] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/loss.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807053] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/metrics.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807093] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/torch_utils.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807137] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/callbacks.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807182] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/__init__.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807240] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/aws/__init__.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/aws\n'}
+[4.807279] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/aws/resume.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/aws\n'}
+[4.807326] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/downloads.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807368] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/datasets.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807424] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/general.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807480] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/activations.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807528] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/autoanchor.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807568] (human) StdoutLine: {'line': b'copying /home/robot/human_ws/build/human/build/lib/human/utils/augmentations.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils\n'}
+[4.807867] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/rstest.py to rstest.cpython-310.pyc\n'}
+[4.809068] (-) TimerEvent: {}
+[4.809310] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/__init__.py to __init__.cpython-310.pyc\n'}
+[4.809387] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models/tf.py to tf.cpython-310.pyc\n'}
+[4.812824] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models/__init__.py to __init__.cpython-310.pyc\n'}
+[4.812887] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models/common.py to common.cpython-310.pyc\n'}
+[4.815796] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models/experimental.py to experimental.cpython-310.pyc\n'}
+[4.816585] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/models/yolo.py to yolo.cpython-310.pyc\n'}
+[4.818517] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/human_client.py to human_client.cpython-310.pyc\n'}
+[4.818874] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/human_detection.py to human_detection.cpython-310.pyc\n'}
+[4.819953] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/plots.py to plots.cpython-310.pyc\n'}
+[4.822450] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/__init__.py to __init__.cpython-310.pyc\n'}
+[4.823349] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb/__init__.py to __init__.cpython-310.pyc\n'}
+[4.823418] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb/log_dataset.py to log_dataset.cpython-310.pyc\n'}
+[4.823627] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb/wandb_utils.py to wandb_utils.cpython-310.pyc\n'}
+[4.825656] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loggers/wandb/sweep.py to sweep.cpython-310.pyc\n'}
+[4.825851] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/loss.py to loss.cpython-310.pyc\n'}
+[4.826993] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/metrics.py to metrics.cpython-310.pyc\n'}
+[4.828607] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/torch_utils.py to torch_utils.cpython-310.pyc\n'}
+[4.830285] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/callbacks.py to callbacks.cpython-310.pyc\n'}
+[4.830832] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/__init__.py to __init__.cpython-310.pyc\n'}
+[4.830906] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/aws/__init__.py to __init__.cpython-310.pyc\n'}
+[4.831005] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/aws/resume.py to resume.cpython-310.pyc\n'}
+[4.831227] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/downloads.py to downloads.cpython-310.pyc\n'}
+[4.831881] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/datasets.py to datasets.cpython-310.pyc\n'}
+[4.837863] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/general.py to general.cpython-310.pyc\n'}
+[4.841961] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/activations.py to activations.cpython-310.pyc\n'}
+[4.842575] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/autoanchor.py to autoanchor.cpython-310.pyc\n'}
+[4.843499] (human) StdoutLine: {'line': b'byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/utils/augmentations.py to augmentations.cpython-310.pyc\n'}
+[4.845077] (human) StdoutLine: {'line': b'running install_data\n'}
+[4.845203] (human) StdoutLine: {'line': b'copying resource/human -> /home/robot/human_ws/install/human/share/ament_index/resource_index/packages\n'}
+[4.845280] (human) StdoutLine: {'line': b'copying package.xml -> /home/robot/human_ws/install/human/share/human\n'}
+[4.845351] (human) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.846503] (human) StdoutLine: {'line': b"removing '/home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.846628] (human) StdoutLine: {'line': b'Copying ../../build/human/human.egg-info to /home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info\n'}
+[4.846971] (human) StdoutLine: {'line': b'running install_scripts\n'}
+[4.861575] (human) StdoutLine: {'line': b'Installing human_coordinate_client script to /home/robot/human_ws/install/human/lib/human\n'}
+[4.861712] (human) StdoutLine: {'line': b'Installing human_coordinate_server script to /home/robot/human_ws/install/human/lib/human\n'}
+[4.862248] (human) StdoutLine: {'line': b"writing list of installed files to '/home/robot/human_ws/build/human/install.log'\n"}
+[4.878512] (human) CommandEnded: {'returncode': 0}
+[4.883003] (human) JobEnded: {'identifier': 'human', 'rc': 0}
+[4.883541] (-) EventReactorShutdown: {}

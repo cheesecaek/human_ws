@@ -1,0 +1,4 @@
+[console_scripts]
+listen_new_node = test_listen.listen_new:main
+listen_test_node = test_listen.listen:main
+

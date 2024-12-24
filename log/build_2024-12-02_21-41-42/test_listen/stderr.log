@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/state_manager.py", line 107
+    time.sleep(2)          ready_or_not = Bool()
+                           ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

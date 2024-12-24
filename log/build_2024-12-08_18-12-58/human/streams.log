@@ -1,0 +1,29 @@
+[0.776s] Invoking command in '/home/robot/human_ws/src/human': CMAKE_PREFIX_PATH=/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/startup:/home/robot/human_ws/install/robot_startup:/home/robot/human_ws/install/depthimage_to_laserscan:/home/robot/human_ws/install/apriltag_ros:/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1 PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data
+[1.033s] running egg_info
+[1.033s] writing ../../build/human/human.egg-info/PKG-INFO
+[1.034s] writing dependency_links to ../../build/human/human.egg-info/dependency_links.txt
+[1.034s] writing entry points to ../../build/human/human.egg-info/entry_points.txt
+[1.034s] writing requirements to ../../build/human/human.egg-info/requires.txt
+[1.034s] writing top-level names to ../../build/human/human.egg-info/top_level.txt
+[1.036s] reading manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[1.037s] writing manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[1.037s] running build
+[1.037s] running build_py
+[1.037s] copying human/coordinates_publisher.py -> /home/robot/human_ws/build/human/build/lib/human
+[1.039s] running install
+[1.039s] running install_lib
+[1.040s] copying /home/robot/human_ws/build/human/build/lib/human/coordinates_publisher.py -> /home/robot/human_ws/install/human/lib/python3.10/site-packages/human
+[1.040s] byte-compiling /home/robot/human_ws/install/human/lib/python3.10/site-packages/human/coordinates_publisher.py to coordinates_publisher.cpython-310.pyc
+[1.042s] running install_data
+[1.042s] running install_egg_info
+[1.043s] removing '/home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info' (and everything under it)
+[1.044s] Copying ../../build/human/human.egg-info to /home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info
+[1.044s] running install_scripts
+[1.058s] Installing coordinates_publisher script to /home/robot/human_ws/install/human/lib/human
+[1.058s] Installing human_coordinate_client script to /home/robot/human_ws/install/human/lib/human
+[1.058s] Installing human_coordinate_client_pcd script to /home/robot/human_ws/install/human/lib/human
+[1.058s] Installing human_coordinate_server script to /home/robot/human_ws/install/human/lib/human
+[1.059s] Installing human_coordinate_server_pcd script to /home/robot/human_ws/install/human/lib/human
+[1.059s] Installing start_nodes script to /home/robot/human_ws/install/human/lib/human
+[1.059s] writing list of installed files to '/home/robot/human_ws/build/human/install.log'
+[1.080s] Invoked command in '/home/robot/human_ws/src/human' returned '0': CMAKE_PREFIX_PATH=/home/robot/human_ws/install/myinterfaces:/home/robot/human_ws/install/startup:/home/robot/human_ws/install/robot_startup:/home/robot/human_ws/install/depthimage_to_laserscan:/home/robot/human_ws/install/apriltag_ros:/home/robot/robot_controller_release/ros2_packages/test_control_node:/home/robot/robot_controller_release/ros2_packages/template_node:/home/robot/robot_controller_release/ros2_packages/robot_jointstate_publisher_node:/home/robot/robot_controller_release/ros2_packages/realsense_camera_node:/home/robot/robot_controller_release/ros2_packages/media_player_node:/home/robot/robot_controller_release/ros2_packages/livox_lidar_node:/home/robot/robot_controller_release/ros2_packages/custom_msg:/home/robot/robot_controller_release/ros2_packages/birdy_v1 PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data

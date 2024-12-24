@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/head_client.py", line 63
+    Thread1 = threading.Thread(target = client.random_action, args = )
+                                                                     ^
+SyntaxError: invalid syntax
+

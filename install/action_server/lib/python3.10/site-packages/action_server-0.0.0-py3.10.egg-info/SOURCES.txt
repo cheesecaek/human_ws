@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/action_server/action_server.egg-info/PKG-INFO
+../../build/action_server/action_server.egg-info/SOURCES.txt
+../../build/action_server/action_server.egg-info/dependency_links.txt
+../../build/action_server/action_server.egg-info/entry_points.txt
+../../build/action_server/action_server.egg-info/requires.txt
+../../build/action_server/action_server.egg-info/top_level.txt
+../../build/action_server/action_server.egg-info/zip-safe
+action_server/__init__.py
+action_server/action_service.py
+resource/action_server
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

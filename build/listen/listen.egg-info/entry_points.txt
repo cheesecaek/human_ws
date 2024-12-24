@@ -1,0 +1,3 @@
+[console_scripts]
+listen_node = listen.listen:main
+

@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/msg/detail/detect_coordinates__type_support.c.o"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/msg/detail/detect_coordinates__type_support.c.o.d"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/msg/detail/state__type_support.c.o"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/msg/detail/state__type_support.c.o.d"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/action__type_support.c.o"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/action__type_support.c.o.d"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/headcontrol__type_support.c.o"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/headcontrol__type_support.c.o.d"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/humancoordinates__type_support.c.o"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/humancoordinates__type_support.c.o.d"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/tag__type_support.c.o"
+  "CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myinterfaces/srv/detail/tag__type_support.c.o.d"
+  "libmyinterfaces__rosidl_typesupport_introspection_c.pdb"
+  "libmyinterfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/myinterfaces/msg/detail/detect_coordinates__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/myinterfaces/msg/detail/detect_coordinates__type_support.c"
+  "rosidl_typesupport_introspection_c/myinterfaces/msg/detail/state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/myinterfaces/msg/detail/state__type_support.c"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/action__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/action__type_support.c"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/headcontrol__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/headcontrol__type_support.c"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/humancoordinates__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/humancoordinates__type_support.c"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/tag__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/myinterfaces/srv/detail/tag__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/myinterfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,24 @@
+[0.688s] Invoking command in '/home/robot/human_ws/src/test_listen': PYTHONPATH=/home/robot/human_ws/build/test_listen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_listen build --build-base /home/robot/human_ws/build/test_listen/build install --record /home/robot/human_ws/build/test_listen/install.log --single-version-externally-managed install_data
+[0.918s] running egg_info
+[0.919s] writing ../../build/test_listen/test_listen.egg-info/PKG-INFO
+[0.919s] writing dependency_links to ../../build/test_listen/test_listen.egg-info/dependency_links.txt
+[0.919s] writing entry points to ../../build/test_listen/test_listen.egg-info/entry_points.txt
+[0.919s] writing requirements to ../../build/test_listen/test_listen.egg-info/requires.txt
+[0.919s] writing top-level names to ../../build/test_listen/test_listen.egg-info/top_level.txt
+[0.921s] reading manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'
+[0.921s] writing manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'
+[0.921s] running build
+[0.922s] running build_py
+[0.922s] copying test_listen/listen.py -> /home/robot/human_ws/build/test_listen/build/lib/test_listen
+[0.922s] running install
+[0.922s] running install_lib
+[0.923s] copying /home/robot/human_ws/build/test_listen/build/lib/test_listen/listen.py -> /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen
+[0.923s] byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/listen.py to listen.cpython-310.pyc
+[0.924s] running install_data
+[0.924s] running install_egg_info
+[0.926s] removing '/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info' (and everything under it)
+[0.926s] Copying ../../build/test_listen/test_listen.egg-info to /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info
+[0.926s] running install_scripts
+[0.942s] Installing listen_test_node script to /home/robot/human_ws/install/test_listen/lib/test_listen
+[0.942s] writing list of installed files to '/home/robot/human_ws/build/test_listen/install.log'
+[0.960s] Invoked command in '/home/robot/human_ws/src/test_listen' returned '0': PYTHONPATH=/home/robot/human_ws/build/test_listen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_listen build --build-base /home/robot/human_ws/build/test_listen/build install --record /home/robot/human_ws/build/test_listen/install.log --single-version-externally-managed install_data

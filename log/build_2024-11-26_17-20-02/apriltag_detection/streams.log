@@ -1,0 +1,39 @@
+[0.791s] Invoking command in '/home/robot/human_ws/src/apriltag_detection': PYTHONPATH=/home/robot/human_ws/build/apriltag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/apriltag_detection build --build-base /home/robot/human_ws/build/apriltag_detection/build install --record /home/robot/human_ws/build/apriltag_detection/install.log --single-version-externally-managed install_data
+[1.027s] running egg_info
+[1.028s] creating ../../build/apriltag_detection/apriltag_detection.egg-info
+[1.028s] writing ../../build/apriltag_detection/apriltag_detection.egg-info/PKG-INFO
+[1.028s] writing dependency_links to ../../build/apriltag_detection/apriltag_detection.egg-info/dependency_links.txt
+[1.028s] writing entry points to ../../build/apriltag_detection/apriltag_detection.egg-info/entry_points.txt
+[1.028s] writing requirements to ../../build/apriltag_detection/apriltag_detection.egg-info/requires.txt
+[1.028s] writing top-level names to ../../build/apriltag_detection/apriltag_detection.egg-info/top_level.txt
+[1.028s] writing manifest file '../../build/apriltag_detection/apriltag_detection.egg-info/SOURCES.txt'
+[1.029s] reading manifest file '../../build/apriltag_detection/apriltag_detection.egg-info/SOURCES.txt'
+[1.030s] writing manifest file '../../build/apriltag_detection/apriltag_detection.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.030s] running build_py
+[1.030s] creating /home/robot/human_ws/build/apriltag_detection/build
+[1.030s] creating /home/robot/human_ws/build/apriltag_detection/build/lib
+[1.030s] creating /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection
+[1.031s] copying apriltag_detection/detection.py -> /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection
+[1.031s] copying apriltag_detection/__init__.py -> /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection
+[1.031s] copying apriltag_detection/camerainfo_tag.py -> /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection
+[1.031s] running install
+[1.031s] running install_lib
+[1.031s] creating /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection
+[1.031s] copying /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection/detection.py -> /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection
+[1.031s] copying /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection/__init__.py -> /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection
+[1.032s] copying /home/robot/human_ws/build/apriltag_detection/build/lib/apriltag_detection/camerainfo_tag.py -> /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection
+[1.032s] byte-compiling /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection/detection.py to detection.cpython-310.pyc
+[1.032s] byte-compiling /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection/__init__.py to __init__.cpython-310.pyc
+[1.032s] byte-compiling /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection/camerainfo_tag.py to camerainfo_tag.cpython-310.pyc
+[1.033s] running install_data
+[1.033s] creating /home/robot/human_ws/install/apriltag_detection/share/ament_index
+[1.033s] creating /home/robot/human_ws/install/apriltag_detection/share/ament_index/resource_index
+[1.033s] creating /home/robot/human_ws/install/apriltag_detection/share/ament_index/resource_index/packages
+[1.033s] copying resource/apriltag_detection -> /home/robot/human_ws/install/apriltag_detection/share/ament_index/resource_index/packages
+[1.033s] copying package.xml -> /home/robot/human_ws/install/apriltag_detection/share/apriltag_detection
+[1.033s] running install_egg_info
+[1.034s] Copying ../../build/apriltag_detection/apriltag_detection.egg-info to /home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages/apriltag_detection-0.0.0-py3.10.egg-info
+[1.035s] running install_scripts
+[1.049s] writing list of installed files to '/home/robot/human_ws/build/apriltag_detection/install.log'
+[1.069s] Invoked command in '/home/robot/human_ws/src/apriltag_detection' returned '0': PYTHONPATH=/home/robot/human_ws/build/apriltag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/apriltag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/apriltag_detection build --build-base /home/robot/human_ws/build/apriltag_detection/build install --record /home/robot/human_ws/build/apriltag_detection/install.log --single-version-externally-managed install_data

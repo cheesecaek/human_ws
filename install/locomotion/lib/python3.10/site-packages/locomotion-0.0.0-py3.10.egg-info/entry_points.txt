@@ -1,0 +1,3 @@
+[console_scripts]
+locomotion = locomotion.locomotion:main
+

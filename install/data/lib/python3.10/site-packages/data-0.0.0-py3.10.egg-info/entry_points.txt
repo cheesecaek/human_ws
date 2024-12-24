@@ -1,0 +1,3 @@
+[console_scripts]
+data_node = data.data:main
+

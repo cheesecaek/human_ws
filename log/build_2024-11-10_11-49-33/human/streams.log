@@ -1,0 +1,61 @@
+[0.591s] Invoking command in '/home/robot/human_ws/src/human': PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.787s] creating ../../build/human/human.egg-info
+[0.787s] writing ../../build/human/human.egg-info/PKG-INFO
+[0.787s] writing dependency_links to ../../build/human/human.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/human/human.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/human/human.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/human/human.egg-info/top_level.txt
+[0.788s] writing manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[0.789s] reading manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[0.790s] writing manifest file '../../build/human/human.egg-info/SOURCES.txt'
+[0.790s] running build
+[0.790s] running build_py
+[0.790s] creating /home/robot/human_ws/build/human/build
+[0.790s] creating /home/robot/human_ws/build/human/build/lib
+[0.790s] creating /home/robot/human_ws/build/human/build/lib/human
+[0.790s] copying human/human_client_pcd.py -> /home/robot/human_ws/build/human/build/lib/human
+[0.790s] copying human/__init__.py -> /home/robot/human_ws/build/human/build/lib/human
+[0.790s] copying human/human_client.py -> /home/robot/human_ws/build/human/build/lib/human
+[0.790s] copying human/human_detection.py -> /home/robot/human_ws/build/human/build/lib/human
+[0.790s] copying human/human_detection_pcd.py -> /home/robot/human_ws/build/human/build/lib/human
+[0.790s] creating /home/robot/human_ws/build/human/build/lib/human/models
+[0.790s] copying human/models/tf.py -> /home/robot/human_ws/build/human/build/lib/human/models
+[0.791s] copying human/models/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/models
+[0.791s] copying human/models/common.py -> /home/robot/human_ws/build/human/build/lib/human/models
+[0.791s] copying human/models/experimental.py -> /home/robot/human_ws/build/human/build/lib/human/models
+[0.791s] copying human/models/yolo.py -> /home/robot/human_ws/build/human/build/lib/human/models
+[0.791s] creating /home/robot/human_ws/build/human/build/lib/human/utils
+[0.791s] copying human/utils/plots.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.791s] copying human/utils/loss.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/metrics.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/torch_utils.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/callbacks.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/downloads.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/datasets.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.792s] copying human/utils/general.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.793s] copying human/utils/activations.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.793s] copying human/utils/autoanchor.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.793s] copying human/utils/augmentations.py -> /home/robot/human_ws/build/human/build/lib/human/utils
+[0.793s] creating /home/robot/human_ws/build/human/build/lib/human/utils/loggers
+[0.793s] copying human/utils/loggers/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers
+[0.793s] creating /home/robot/human_ws/build/human/build/lib/human/utils/aws
+[0.793s] copying human/utils/aws/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils/aws
+[0.793s] copying human/utils/aws/resume.py -> /home/robot/human_ws/build/human/build/lib/human/utils/aws
+[0.794s] creating /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb
+[0.794s] copying human/utils/loggers/wandb/__init__.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb
+[0.794s] copying human/utils/loggers/wandb/log_dataset.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb
+[0.794s] copying human/utils/loggers/wandb/wandb_utils.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb
+[0.794s] copying human/utils/loggers/wandb/sweep.py -> /home/robot/human_ws/build/human/build/lib/human/utils/loggers/wandb
+[0.794s] running install
+[0.795s] running install_lib
+[0.796s] running install_data
+[0.796s] running install_egg_info
+[0.797s] removing '/home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info' (and everything under it)
+[0.797s] Copying ../../build/human/human.egg-info to /home/robot/human_ws/install/human/lib/python3.10/site-packages/human-0.0.0-py3.10.egg-info
+[0.798s] running install_scripts
+[0.812s] Installing human_coordinate_client script to /home/robot/human_ws/install/human/lib/human
+[0.812s] Installing human_coordinate_server script to /home/robot/human_ws/install/human/lib/human
+[0.813s] writing list of installed files to '/home/robot/human_ws/build/human/install.log'
+[0.832s] Invoked command in '/home/robot/human_ws/src/human' returned '0': PYTHONPATH=/home/robot/human_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/human build --build-base /home/robot/human_ws/build/human/build install --record /home/robot/human_ws/build/human/install.log --single-version-externally-managed install_data

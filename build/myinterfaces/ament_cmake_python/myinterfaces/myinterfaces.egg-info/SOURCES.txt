@@ -1,0 +1,14 @@
+setup.py
+myinterfaces/__init__.py
+myinterfaces.egg-info/PKG-INFO
+myinterfaces.egg-info/SOURCES.txt
+myinterfaces.egg-info/dependency_links.txt
+myinterfaces.egg-info/top_level.txt
+myinterfaces/msg/__init__.py
+myinterfaces/msg/_detect_coordinates.py
+myinterfaces/msg/_state.py
+myinterfaces/srv/__init__.py
+myinterfaces/srv/_action.py
+myinterfaces/srv/_headcontrol.py
+myinterfaces/srv/_humancoordinates.py
+myinterfaces/srv/_tag.py

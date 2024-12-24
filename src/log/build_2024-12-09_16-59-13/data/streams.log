@@ -1,0 +1,37 @@
+[0.762s] Invoking command in '/home/robot/human_ws/src/data': PYTHONPATH=/home/robot/human_ws/src/build/data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/src/install/data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/data build --build-base /home/robot/human_ws/src/build/data/build install --record /home/robot/human_ws/src/build/data/install.log --single-version-externally-managed install_data
+[1.000s] running egg_info
+[1.000s] creating ../build/data/data.egg-info
+[1.000s] writing ../build/data/data.egg-info/PKG-INFO
+[1.000s] writing dependency_links to ../build/data/data.egg-info/dependency_links.txt
+[1.000s] writing entry points to ../build/data/data.egg-info/entry_points.txt
+[1.000s] writing requirements to ../build/data/data.egg-info/requires.txt
+[1.000s] writing top-level names to ../build/data/data.egg-info/top_level.txt
+[1.000s] writing manifest file '../build/data/data.egg-info/SOURCES.txt'
+[1.002s] reading manifest file '../build/data/data.egg-info/SOURCES.txt'
+[1.002s] writing manifest file '../build/data/data.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.002s] running build_py
+[1.002s] creating /home/robot/human_ws/src/build/data/build
+[1.002s] creating /home/robot/human_ws/src/build/data/build/lib
+[1.002s] creating /home/robot/human_ws/src/build/data/build/lib/data
+[1.002s] copying data/data.py -> /home/robot/human_ws/src/build/data/build/lib/data
+[1.002s] copying data/__init__.py -> /home/robot/human_ws/src/build/data/build/lib/data
+[1.002s] running install
+[1.002s] running install_lib
+[1.003s] creating /home/robot/human_ws/src/install/data/lib/python3.10/site-packages/data
+[1.003s] copying /home/robot/human_ws/src/build/data/build/lib/data/data.py -> /home/robot/human_ws/src/install/data/lib/python3.10/site-packages/data
+[1.003s] copying /home/robot/human_ws/src/build/data/build/lib/data/__init__.py -> /home/robot/human_ws/src/install/data/lib/python3.10/site-packages/data
+[1.003s] byte-compiling /home/robot/human_ws/src/install/data/lib/python3.10/site-packages/data/data.py to data.cpython-310.pyc
+[1.004s] byte-compiling /home/robot/human_ws/src/install/data/lib/python3.10/site-packages/data/__init__.py to __init__.cpython-310.pyc
+[1.004s] running install_data
+[1.004s] creating /home/robot/human_ws/src/install/data/share/ament_index
+[1.004s] creating /home/robot/human_ws/src/install/data/share/ament_index/resource_index
+[1.004s] creating /home/robot/human_ws/src/install/data/share/ament_index/resource_index/packages
+[1.004s] copying resource/data -> /home/robot/human_ws/src/install/data/share/ament_index/resource_index/packages
+[1.004s] copying package.xml -> /home/robot/human_ws/src/install/data/share/data
+[1.004s] running install_egg_info
+[1.005s] Copying ../build/data/data.egg-info to /home/robot/human_ws/src/install/data/lib/python3.10/site-packages/data-0.0.0-py3.10.egg-info
+[1.005s] running install_scripts
+[1.023s] Installing data_node script to /home/robot/human_ws/src/install/data/lib/data
+[1.023s] writing list of installed files to '/home/robot/human_ws/src/build/data/install.log'
+[1.045s] Invoked command in '/home/robot/human_ws/src/data' returned '0': PYTHONPATH=/home/robot/human_ws/src/build/data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/src/install/data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/data build --build-base /home/robot/human_ws/src/build/data/build install --record /home/robot/human_ws/src/build/data/install.log --single-version-externally-managed install_data

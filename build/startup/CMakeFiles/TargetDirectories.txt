@@ -1,0 +1,9 @@
+/home/robot/human_ws/build/startup/CMakeFiles/uninstall.dir
+/home/robot/human_ws/build/startup/CMakeFiles/startup_uninstall.dir
+/home/robot/human_ws/build/startup/CMakeFiles/test.dir
+/home/robot/human_ws/build/startup/CMakeFiles/edit_cache.dir
+/home/robot/human_ws/build/startup/CMakeFiles/rebuild_cache.dir
+/home/robot/human_ws/build/startup/CMakeFiles/list_install_components.dir
+/home/robot/human_ws/build/startup/CMakeFiles/install.dir
+/home/robot/human_ws/build/startup/CMakeFiles/install/local.dir
+/home/robot/human_ws/build/startup/CMakeFiles/install/strip.dir

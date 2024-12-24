@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow_tag_static2.py", line 127
+    print("empty2:"count)
+          ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

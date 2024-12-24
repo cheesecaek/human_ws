@@ -1,0 +1,5 @@
+  File "/home/robot/human_ws/install/follow/lib/python3.10/site-packages/follow/follow_tag.py", line 13
+    s       elf.tag_coordinates_sub = Subscriber(self,
+            ^^^
+SyntaxError: invalid syntax
+

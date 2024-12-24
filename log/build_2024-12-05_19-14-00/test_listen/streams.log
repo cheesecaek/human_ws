@@ -1,0 +1,36 @@
+[2.007s] Invoking command in '/home/robot/human_ws/src/test_listen': PYTHONPATH=/home/robot/human_ws/build/test_listen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_listen build --build-base /home/robot/human_ws/build/test_listen/build install --record /home/robot/human_ws/build/test_listen/install.log --single-version-externally-managed install_data
+[2.254s] running egg_info
+[2.255s] writing ../../build/test_listen/test_listen.egg-info/PKG-INFO
+[2.255s] writing dependency_links to ../../build/test_listen/test_listen.egg-info/dependency_links.txt
+[2.255s] writing entry points to ../../build/test_listen/test_listen.egg-info/entry_points.txt
+[2.255s] writing requirements to ../../build/test_listen/test_listen.egg-info/requires.txt
+[2.255s] writing top-level names to ../../build/test_listen/test_listen.egg-info/top_level.txt
+[2.256s] reading manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'
+[2.257s] writing manifest file '../../build/test_listen/test_listen.egg-info/SOURCES.txt'
+[2.258s] running build
+[2.258s] running build_py
+[2.258s] copying test_listen/listen_new.py -> /home/robot/human_ws/build/test_listen/build/lib/test_listen
+[2.258s] copying test_listen/state_manager.py -> /home/robot/human_ws/build/test_listen/build/lib/test_listen
+[2.258s] copying test_listen/introduction.py -> /home/robot/human_ws/build/test_listen/build/lib/test_listen
+[2.258s] running install
+[2.258s] running install_lib
+[2.259s] copying /home/robot/human_ws/build/test_listen/build/lib/test_listen/listen_new.py -> /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen
+[2.259s] copying /home/robot/human_ws/build/test_listen/build/lib/test_listen/state_manager.py -> /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen
+[2.259s] copying /home/robot/human_ws/build/test_listen/build/lib/test_listen/introduction.py -> /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen
+[2.259s] byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/listen_new.py to listen_new.cpython-310.pyc
+[2.261s] byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/state_manager.py to state_manager.cpython-310.pyc
+[2.262s] byte-compiling /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/introduction.py to introduction.cpython-310.pyc
+[2.262s]   File "/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen/introduction.py", line 2
+[2.263s]     self_information '你的名字叫“鸵鸟”，你是一位专业的智能导游助手，现在已经6个月大了，平常喜欢在数据服务实验室中休息。之所以名字叫鸵鸟，是因为鸵鸟是一种非常聪明的鸟类，于是我就被设计成了鸵鸟的样子，并取名为鸵鸟。现在游客询问你的相关信息，你可以回答他们的问题。'
+[2.263s]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.263s] SyntaxError: invalid syntax
+[2.263s] 
+[2.263s] running install_data
+[2.263s] running install_egg_info
+[2.264s] removing '/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info' (and everything under it)
+[2.265s] Copying ../../build/test_listen/test_listen.egg-info to /home/robot/human_ws/install/test_listen/lib/python3.10/site-packages/test_listen-0.0.0-py3.10.egg-info
+[2.265s] running install_scripts
+[2.282s] Installing listen_new_node script to /home/robot/human_ws/install/test_listen/lib/test_listen
+[2.282s] Installing listen_test_node script to /home/robot/human_ws/install/test_listen/lib/test_listen
+[2.282s] writing list of installed files to '/home/robot/human_ws/build/test_listen/install.log'
+[2.342s] Invoked command in '/home/robot/human_ws/src/test_listen' returned '0': PYTHONPATH=/home/robot/human_ws/build/test_listen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/human_ws/install/test_listen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_listen build --build-base /home/robot/human_ws/build/test_listen/build install --record /home/robot/human_ws/build/test_listen/install.log --single-version-externally-managed install_data

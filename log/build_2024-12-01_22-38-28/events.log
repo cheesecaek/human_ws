@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (-) JobUnselected: {'identifier': 'action_server'}
+[0.000394] (-) JobUnselected: {'identifier': 'apriltag_detection'}
+[0.000511] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000542] (-) JobUnselected: {'identifier': 'depthimage_to_laserscan'}
+[0.000566] (-) JobUnselected: {'identifier': 'follow'}
+[0.000589] (-) JobUnselected: {'identifier': 'human'}
+[0.000610] (-) JobUnselected: {'identifier': 'idle_behavior'}
+[0.000632] (-) JobUnselected: {'identifier': 'image'}
+[0.000653] (-) JobUnselected: {'identifier': 'listen'}
+[0.000673] (-) JobUnselected: {'identifier': 'listen'}
+[0.000694] (-) JobUnselected: {'identifier': 'locomotion'}
+[0.000715] (-) JobUnselected: {'identifier': 'manager'}
+[0.000735] (-) JobUnselected: {'identifier': 'myinterfaces'}
+[0.000756] (-) JobUnselected: {'identifier': 'test_manager'}
+[0.000778] (-) EventReactorShutdown: {}

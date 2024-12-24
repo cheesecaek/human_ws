@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/listen/listen.egg-info
+writing ../../build/listen/listen.egg-info/PKG-INFO
+writing dependency_links to ../../build/listen/listen.egg-info/dependency_links.txt
+writing entry points to ../../build/listen/listen.egg-info/entry_points.txt
+writing requirements to ../../build/listen/listen.egg-info/requires.txt
+writing top-level names to ../../build/listen/listen.egg-info/top_level.txt
+writing manifest file '../../build/listen/listen.egg-info/SOURCES.txt'
+reading manifest file '../../build/listen/listen.egg-info/SOURCES.txt'
+writing manifest file '../../build/listen/listen.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/human_ws/build/listen/build
+creating /home/robot/human_ws/build/listen/build/lib
+creating /home/robot/human_ws/build/listen/build/lib/listen
+copying listen/tts.py -> /home/robot/human_ws/build/listen/build/lib/listen
+copying listen/listen.py -> /home/robot/human_ws/build/listen/build/lib/listen
+copying listen/__init__.py -> /home/robot/human_ws/build/listen/build/lib/listen
+copying listen/STT.py -> /home/robot/human_ws/build/listen/build/lib/listen
+running install
+running install_lib
+copying /home/robot/human_ws/build/listen/build/lib/listen/listen.py -> /home/robot/human_ws/install/listen/lib/python3.10/site-packages/listen
+byte-compiling /home/robot/human_ws/install/listen/lib/python3.10/site-packages/listen/listen.py to listen.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/robot/human_ws/install/listen/lib/python3.10/site-packages/listen-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/listen/listen.egg-info to /home/robot/human_ws/install/listen/lib/python3.10/site-packages/listen-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listen_node script to /home/robot/human_ws/install/listen/lib/listen
+writing list of installed files to '/home/robot/human_ws/build/listen/install.log'

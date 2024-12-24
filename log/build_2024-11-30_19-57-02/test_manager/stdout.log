@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/test_manager/test_manager.egg-info
+writing ../../build/test_manager/test_manager.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_manager/test_manager.egg-info/dependency_links.txt
+writing entry points to ../../build/test_manager/test_manager.egg-info/entry_points.txt
+writing requirements to ../../build/test_manager/test_manager.egg-info/requires.txt
+writing top-level names to ../../build/test_manager/test_manager.egg-info/top_level.txt
+writing manifest file '../../build/test_manager/test_manager.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_manager/test_manager.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_manager/test_manager.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/human_ws/build/test_manager/build
+creating /home/robot/human_ws/build/test_manager/build/lib
+creating /home/robot/human_ws/build/test_manager/build/lib/test_manager
+copying test_manager/test_manager.py -> /home/robot/human_ws/build/test_manager/build/lib/test_manager
+copying test_manager/__init__.py -> /home/robot/human_ws/build/test_manager/build/lib/test_manager
+running install
+running install_lib
+creating /home/robot/human_ws/install/test_manager/lib/python3.10/site-packages/test_manager
+copying /home/robot/human_ws/build/test_manager/build/lib/test_manager/test_manager.py -> /home/robot/human_ws/install/test_manager/lib/python3.10/site-packages/test_manager
+copying /home/robot/human_ws/build/test_manager/build/lib/test_manager/__init__.py -> /home/robot/human_ws/install/test_manager/lib/python3.10/site-packages/test_manager
+byte-compiling /home/robot/human_ws/install/test_manager/lib/python3.10/site-packages/test_manager/test_manager.py to test_manager.cpython-310.pyc
+byte-compiling /home/robot/human_ws/install/test_manager/lib/python3.10/site-packages/test_manager/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robot/human_ws/install/test_manager/share/ament_index
+creating /home/robot/human_ws/install/test_manager/share/ament_index/resource_index
+creating /home/robot/human_ws/install/test_manager/share/ament_index/resource_index/packages
+copying resource/test_manager -> /home/robot/human_ws/install/test_manager/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/human_ws/install/test_manager/share/test_manager
+running install_egg_info
+Copying ../../build/test_manager/test_manager.egg-info to /home/robot/human_ws/install/test_manager/lib/python3.10/site-packages/test_manager-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /home/robot/human_ws/install/test_manager/lib/test_manager
+writing list of installed files to '/home/robot/human_ws/build/test_manager/install.log'
