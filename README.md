@@ -16,5 +16,5 @@ ros2 run human coordinates_publisher
 ros2 run follow follow_human_node # 新开一个终端
 ```
 
-human文件夹下的coordinates_publisher.py的功能为创建topic，发布人物坐标信息（深度图信息）
+human文件夹下的coordinates_publisher.py的功能为创建topic，发布人物坐标信息（深度图信息）<br>
 follow文件夹下的follower.py的功能为跟踪人物
